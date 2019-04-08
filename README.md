@@ -12,4 +12,4 @@
 
 ### Contact
 
-[LinkedIn]https://www.linkedin.com/in/guangmingluo1994/
+[LinkedIn](https://www.linkedin.com/in/guangmingluo1994/)
