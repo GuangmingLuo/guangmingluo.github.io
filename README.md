@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Guangming Luo's GitHub Page
 
 You can use the [editor on GitHub](https://github.com/GuangmingLuo/guangmingluo.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
