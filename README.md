@@ -13,6 +13,8 @@
 
 [Istio监控详解](http://www.servicemesher.com/blog/istio-monitoring-explained/)
 
+[微服务中的熔断简介及工作原理详解（第2部分）](http://www.servicemesher.com/blog/preventing-systemic-failure-circuit-breaking-part-2/)
+
 ### Contact
 
 [LinkedIn](https://www.linkedin.com/in/guangmingluo1994/)
