@@ -15,7 +15,9 @@
 
 [微服务中的熔断简介及工作原理详解（第2部分）](http://www.servicemesher.com/blog/preventing-systemic-failure-circuit-breaking-part-2/)
 
-[容器、微服务和服务网格简史](https://mp.weixin.qq.com/s/x4rcoDUCv9Hzp7NkBrs47w)
+[容器、微服务和服务网格简史](http://www.servicemesher.com/blog/containers-microservices-service-meshes/)
+
+[构建Envoy的控制平面手册第5部分 - 部署的权衡](http://www.servicemesher.com/blog/guidance-for-building-a-control-plane-for-envoy-deployment-tradeoffs/)
 
 ### Contact
 
