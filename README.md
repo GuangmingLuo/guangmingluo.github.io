@@ -19,6 +19,10 @@
 
 [构建Envoy的控制平面手册第5部分 - 部署的权衡](http://www.servicemesher.com/blog/guidance-for-building-a-control-plane-for-envoy-deployment-tradeoffs/)
 
+### 原创
+
+[Envoy功能点详解之异常点检测](blog/envoy-feature-explain-outlier-detection/index.md)
+
 ### Contact
 
 [LinkedIn](https://www.linkedin.com/in/guangmingluo1994/)
