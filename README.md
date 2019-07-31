@@ -21,6 +21,8 @@
 
 [构建Envoy的控制平面手册第5部分 - 部署的权衡](http://www.servicemesher.com/blog/guidance-for-building-a-control-plane-for-envoy-deployment-tradeoffs/)
 
+[服务网格的三个技术优势及其运维局限](https://www.servicemesher.com/blog/service-mesh-istio-limits-and-benefits-part-1/)
+
 ### 原创
 
 [Envoy功能点详解之异常点检测](https://www.servicemesher.com/blog/envoy-feature-explain-outlier-detection/)
