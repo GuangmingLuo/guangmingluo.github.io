@@ -25,7 +25,7 @@
 
 ### 原创
 
-[Envoy功能点详解之异常点检测](https://www.servicemesher.com/blog/envoy-feature-explain-outlier-detection/)
+[Envoy功能点详解之异常点检测](https://www.servicemesher.com/blog/envoy-feature-explain-outlier-detection/) (InfoQ转载:[链接](https://www.infoq.cn/article/Aj_62GtmUVsbdHfcr8l6))
 
 ### Contact
 
