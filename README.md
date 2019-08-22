@@ -23,6 +23,8 @@
 
 [服务网格的三个技术优势及其运维局限](https://www.servicemesher.com/blog/service-mesh-istio-limits-and-benefits-part-1/)
 
+[实现Kubernetes Operator的新方式：Python](https://www.servicemesher.com/blog/kubernetes-operator-in-python/)
+
 ### 原创
 
 [Envoy功能点详解之异常点检测](https://www.servicemesher.com/blog/envoy-feature-explain-outlier-detection/) (InfoQ转载:[链接](https://www.infoq.cn/article/Aj_62GtmUVsbdHfcr8l6))
