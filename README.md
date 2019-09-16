@@ -8,7 +8,8 @@
 
 目前研究的技术领域包含：Spring Boot框架与Spring Cloud全技术栈（分布式追踪、服务注册发现、配置中心、负载均衡、限流熔断降级），Service Mesh服务网格技术（istio, envoy, linkerd），微服务架构与技术选型等。
 
-### 译文
+### 译文/编辑
+
 [微服务断路器模式实现：Istio vs Hystrix](http://www.servicemesher.com/blog/istio-vs-hystrix-circuit-breaker/)
 
 [MicroProfile——为Istio创建的微服务编程模型](http://www.servicemesher.com/blog/microprofile-the-microservice-programming-model-made-for-istio/)
@@ -24,6 +25,8 @@
 [服务网格的三个技术优势及其运维局限](https://www.servicemesher.com/blog/service-mesh-istio-limits-and-benefits-part-1/)
 
 [实现Kubernetes Operator的新方式：Python](https://www.servicemesher.com/blog/kubernetes-operator-in-python/)
+
+[服务网格Kuma爬过了 Kubernetes 这座大山](https://www.servicemesher.com/blog/kong-open-sources-kuma-the-universal-service-mesh/) (微信[公众号](https://mp.weixin.qq.com/s/7FlaDCsmOTOgSm-2IWZWiQ)内访问量破3000.)
 
 ### 原创
 
