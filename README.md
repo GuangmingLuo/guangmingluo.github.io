@@ -28,6 +28,8 @@
 
 [服务网格Kuma爬过了 Kubernetes 这座大山](https://www.servicemesher.com/blog/kong-open-sources-kuma-the-universal-service-mesh/) (微信[公众号](https://mp.weixin.qq.com/s/7FlaDCsmOTOgSm-2IWZWiQ)内访问量破3000.)
 
+[企业组织中采用服务网格的挑战](https://www.servicemesher.com/blog/challenges-of-adopting-service-mesh-in-enterprise-organizations/)
+
 ### 原创
 
 [Envoy功能点详解之异常点检测](https://www.servicemesher.com/blog/envoy-feature-explain-outlier-detection/) (InfoQ转载:[链接](https://www.infoq.cn/article/Aj_62GtmUVsbdHfcr8l6))
