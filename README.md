@@ -1,12 +1,12 @@
 ## Welcome to [Guangming Luo - 罗广明的主页](https://guangmingluo.github.io/guangmingluo.io/)
 
-我是罗广明（Guangming Luo），百度高级研发工程师，致力于微服务构架、治理以及云原生相关的研究与开发，开源项目爱好者，DevOps与Scrum支持者与实践者。
+我是罗广明（Guangming Luo），百度高级研发工程师，致力于微服务构架、治理以及云原生相关的研究与开发，开源项目爱好者，DevOps与Scrum支持者与实践者，对微服务配置中心、微服务治理模型有深入研究。
 
 [ServiceMesher 社区](http://www.servicemesher.com/)治理委员会成员之一，目前负责社区治理相关工作，包括但不限于git项目管理、规范制定，投稿评审，参与组织活动等。翻译的文章，投稿并发表于社区网站及微信公众号。
 
-[Baidu/spring-cloud-formula](https://github.com/baidu/spring-cloud-formula): RateLimiter Spring Boot Starter 组件的主要贡献者。
+[Baidu/spring-cloud-formula](https://github.com/baidu/spring-cloud-formula): RateLimiter Spring Boot Starter、Config Client Spring Boot Starter 以及 Consul Config Spring Boot Starter 组件的主要贡献者。
 
-目前研究的技术领域包含：Spring Boot框架与Spring Cloud全技术栈（分布式追踪、服务注册发现、配置中心、负载均衡、限流熔断降级），Service Mesh服务网格技术（istio, envoy, linkerd），微服务架构与技术选型等。
+目前研究的技术领域包含：Spring Boot框架与Spring Cloud全技术栈（分布式追踪、服务注册发现、配置中心、负载均衡、限流熔断降级），Service Mesh服务网格技术，微服务架构与技术选型等。
 
 ### 译文/编辑
 
