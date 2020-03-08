@@ -1,4 +1,4 @@
-## Welcome to [Guangming Luo - 罗广明的主页](https://guangmingluo.github.io/guangmingluo.io/)
+## Welcome to Guangming Luo - 罗广明的主页
 
 我是罗广明（Guangming Luo），百度高级研发工程师，致力于微服务构架、治理以及云原生相关的研究与开发，开源项目爱好者，DevOps与Scrum支持者与实践者，Service Mesh 布道者，对微服务配置中心、微服务治理模型有深入研究。
 
@@ -46,5 +46,6 @@
 
 [LinkedIn](https://www.linkedin.com/in/guangmingluo1994/)
 [Twitter](https://twitter.com/IvanLuo10)
+[Github](https://github.com/GuangmingLuo)
 
 Email: guangmingluo1994@gmail.com
