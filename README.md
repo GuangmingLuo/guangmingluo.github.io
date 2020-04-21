@@ -41,6 +41,8 @@
 
 [2020 年 Service Mesh 技术展望](https://www.infoq.cn/article/HOVMKdgv2rDOi5msdMyh?utm_source=rss&utm_medium=article)
 
+[Service Mesh 概述](https://www.servicemesher.com/istio-handbook/concepts/overview.html)
+
 
 ### Contact
 
