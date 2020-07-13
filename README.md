@@ -2,11 +2,13 @@
 
 我是罗广明（Guangming Luo），百度高级研发工程师，致力于微服务构架、治理以及云原生相关的研究与开发，开源项目爱好者，DevOps与Scrum支持者与实践者，Service Mesh 布道者，对微服务配置中心、微服务治理模型有深入研究。
 
-[ServiceMesher 社区](http://www.servicemesher.com/)治理委员，目前负责社区管理、规划、决策、投稿评审等。
+[Cloud Native Community 云原生社区](https://cloudnative.to/) 联合创始人&[管委会成员](https://cloudnative.to/team/)。
+
+[ServiceMesher 社区](http://www.servicemesher.com/) 治理委员，目前负责社区管理、规划、决策、投稿评审等。
 
 [Baidu/spring-cloud-formula](https://github.com/baidu/spring-cloud-formula): RateLimiter Spring Boot Starter、Config Client Spring Boot Starter 以及 Consul Config Spring Boot Starter 组件的作者。
 
-[云原生微服务应用平台](https://cloud.baidu.com/doc/CNAP/index.html)微服务治理主要研发人员。
+[云原生微服务应用平台](https://cloud.baidu.com/doc/CNAP/index.html) 微服务治理主要研发人员。
 
 目前研究的技术领域包含：Spring Boot框架与Spring Cloud全技术栈（分布式追踪、服务注册发现、配置中心、负载均衡、限流熔断降级），Service Mesh服务网格技术，微服务架构与技术选型等。
 
