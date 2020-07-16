@@ -14,21 +14,23 @@
 
 ### 演讲/公开课
 
-[走近微服务新时代：服务网格](http://abcxueyuan.baidu.com/#/course_detail?id=15179&courseId=15179&hmsr=%E6%B2%99%E9%BE%99%E5%BE%AE%E6%9C%8D%E5%8A%A1%E8%A7%86%E9%A2%91&hmpl=&hmcu=&hmkw=&hmci=)
+- [走近微服务新时代：服务网格](http://abcxueyuan.baidu.com/#/course_detail?id=15179&courseId=15179&hmsr=%E6%B2%99%E9%BE%99%E5%BE%AE%E6%9C%8D%E5%8A%A1%E8%A7%86%E9%A2%91&hmpl=&hmcu=&hmkw=&hmci=)
 
-[Service Mesh 高可用在企业级生产中的实践](https://www.bilibili.com/video/BV1WT4y1u73W)
+- [Service Mesh 高可用在企业级生产中的实践](https://www.bilibili.com/video/BV1WT4y1u73W)
 
 ### 原创
 
-[Envoy功能点详解之异常点检测](https://www.servicemesher.com/blog/envoy-feature-explain-outlier-detection/) (InfoQ转载:[链接](https://www.infoq.cn/article/Aj_62GtmUVsbdHfcr8l6)) 
+- [Envoy功能点详解之异常点检测](https://www.servicemesher.com/blog/envoy-feature-explain-outlier-detection/) (InfoQ转载:[链接](https://www.infoq.cn/article/Aj_62GtmUVsbdHfcr8l6)) 
 
-[2020 年 Service Mesh 技术展望](https://www.infoq.cn/article/HOVMKdgv2rDOi5msdMyh?utm_source=rss&utm_medium=article)
+- [2020 年 Service Mesh 技术展望](https://www.servicemesher.com/blog/2020-service-mesh-technology-outlook/) (InfoQ 转载: [链接](https://www.infoq.cn/article/HOVMKdgv2rDOi5msdMyh?utm_source=rss&utm_medium=article))
 
-[Service Mesh 概述](https://www.servicemesher.com/istio-handbook/concepts/overview.html)
+- [Service Mesh 概述](https://www.servicemesher.com/istio-handbook/concepts/overview.html)
 
-[混合微服务高可用在企业级生产中的实践](https://cloudnative.to/blog/microservices-ha-practice/)（[公众号链接](https://mp.weixin.qq.com/s/pdi98f2p2ROWeHf3h-Y6HQ)）
+- [混合微服务高可用在企业级生产中的实践](https://cloudnative.to/blog/microservices-ha-practice/)（[公众号链接](https://mp.weixin.qq.com/s/pdi98f2p2ROWeHf3h-Y6HQ)）
 
-[解密开源与社区](https://cloudnative.to/blog/opensource-and-community/)（[公众号链接](https://mp.weixin.qq.com/s/Wuw-e0E8vjU0xaB2uKpsuQ)）
+- [解密开源与社区](https://cloudnative.to/blog/opensource-and-community/)（[公众号链接](https://mp.weixin.qq.com/s/Wuw-e0E8vjU0xaB2uKpsuQ)）
+
+- [火了 2 年的服务网格究竟给微服务带来了什么？](https://mp.weixin.qq.com/s/VPYPdD35rqj-z985xWiplA)
 
 ### 编译
 
