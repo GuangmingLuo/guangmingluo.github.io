@@ -20,48 +20,48 @@
 
 ### 原创
 
-- [Envoy功能点详解之异常点检测](https://www.servicemesher.com/blog/envoy-feature-explain-outlier-detection/) (InfoQ转载:[链接](https://www.infoq.cn/article/Aj_62GtmUVsbdHfcr8l6)) 
+- [Envoy功能点详解之异常点检测](https://www.servicemesher.com/blog/envoy-feature-explain-outlier-detection/) (InfoQ 转载:[链接](https://www.infoq.cn/article/Aj_62GtmUVsbdHfcr8l6)) 
 
 - [2020 年 Service Mesh 技术展望](https://www.servicemesher.com/blog/2020-service-mesh-technology-outlook/) (InfoQ 转载: [链接](https://www.infoq.cn/article/HOVMKdgv2rDOi5msdMyh?utm_source=rss&utm_medium=article))
 
 - [Service Mesh 概述](https://www.servicemesher.com/istio-handbook/concepts/overview.html)
 
-- [混合微服务高可用在企业级生产中的实践](https://cloudnative.to/blog/microservices-ha-practice/)（[公众号链接](https://mp.weixin.qq.com/s/pdi98f2p2ROWeHf3h-Y6HQ)）
+- [混合微服务高可用在企业级生产中的实践](https://cloudnative.to/blog/microservices-ha-practice/)（公众号:[链接](https://mp.weixin.qq.com/s/pdi98f2p2ROWeHf3h-Y6HQ)）
 
-- [解密开源与社区](https://cloudnative.to/blog/opensource-and-community/)（[公众号链接](https://mp.weixin.qq.com/s/Wuw-e0E8vjU0xaB2uKpsuQ)）
+- [解密开源与社区](https://cloudnative.to/blog/opensource-and-community/)（公众号:[链接](https://mp.weixin.qq.com/s/Wuw-e0E8vjU0xaB2uKpsuQ)）
 
 - [火了 2 年的服务网格究竟给微服务带来了什么？](https://mp.weixin.qq.com/s/VPYPdD35rqj-z985xWiplA)
 
 ### 编译
 
-[微服务断路器模式实现：Istio vs Hystrix](http://www.servicemesher.com/blog/istio-vs-hystrix-circuit-breaker/)
+- [微服务断路器模式实现：Istio vs Hystrix](http://www.servicemesher.com/blog/istio-vs-hystrix-circuit-breaker/)
 
-[MicroProfile——为Istio创建的微服务编程模型](http://www.servicemesher.com/blog/microprofile-the-microservice-programming-model-made-for-istio/)
+- [MicroProfile——为Istio创建的微服务编程模型](http://www.servicemesher.com/blog/microprofile-the-microservice-programming-model-made-for-istio/)
 
-[Istio监控详解](http://www.servicemesher.com/blog/istio-monitoring-explained/)
+- [Istio监控详解](http://www.servicemesher.com/blog/istio-monitoring-explained/)
 
-[微服务中的熔断简介及工作原理详解（第2部分）](http://www.servicemesher.com/blog/preventing-systemic-failure-circuit-breaking-part-2/)
+- [微服务中的熔断简介及工作原理详解（第2部分）](http://www.servicemesher.com/blog/preventing-systemic-failure-circuit-breaking-part-2/)
 
-[容器、微服务和服务网格简史](http://www.servicemesher.com/blog/containers-microservices-service-meshes/)
+- [容器、微服务和服务网格简史](http://www.servicemesher.com/blog/containers-microservices-service-meshes/)
 
-[构建Envoy的控制平面手册第5部分 - 部署的权衡](http://www.servicemesher.com/blog/guidance-for-building-a-control-plane-for-envoy-deployment-tradeoffs/)
+- [构建Envoy的控制平面手册第5部分 - 部署的权衡](http://www.servicemesher.com/blog/guidance-for-building-a-control-plane-for-envoy-deployment-tradeoffs/)
 
-[服务网格的三个技术优势及其运维局限](https://www.servicemesher.com/blog/service-mesh-istio-limits-and-benefits-part-1/)
+- [服务网格的三个技术优势及其运维局限](https://www.servicemesher.com/blog/service-mesh-istio-limits-and-benefits-part-1/)
 
-[实现Kubernetes Operator的新方式：Python](https://www.servicemesher.com/blog/kubernetes-operator-in-python/)
+- [实现Kubernetes Operator的新方式：Python](https://www.servicemesher.com/blog/kubernetes-operator-in-python/)
 
-[服务网格Kuma爬过了 Kubernetes 这座大山](https://www.servicemesher.com/blog/kong-open-sources-kuma-the-universal-service-mesh/) (微信[公众号](https://mp.weixin.qq.com/s/7FlaDCsmOTOgSm-2IWZWiQ)内访问量破3000.)
+- [服务网格Kuma爬过了 Kubernetes 这座大山](https://www.servicemesher.com/blog/kong-open-sources-kuma-the-universal-service-mesh/) (微信[公众号](https://mp.weixin.qq.com/s/7FlaDCsmOTOgSm-2IWZWiQ)内访问量破3000.)
 
-[企业组织中采用服务网格的挑战](https://www.servicemesher.com/blog/challenges-of-adopting-service-mesh-in-enterprise-organizations/)
+- [企业组织中采用服务网格的挑战](https://www.servicemesher.com/blog/challenges-of-adopting-service-mesh-in-enterprise-organizations/)
 
 
 ### Contact
 
-[LinkedIn](https://www.linkedin.com/in/guangmingluo1994/)
+- [LinkedIn](https://www.linkedin.com/in/guangmingluo1994/)
 
-[Twitter](https://twitter.com/IvanLuo10)
+- [Twitter](https://twitter.com/IvanLuo10)
 
-[Github](https://github.com/GuangmingLuo)
+- [Github](https://github.com/GuangmingLuo)
 
 Email: guangmingluo1994@gmail.com
 
