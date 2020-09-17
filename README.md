@@ -20,6 +20,10 @@
 
 ### 原创
 
+- [云原生之微服务新观](https://mp.weixin.qq.com/s/BG96dppv-Ta0kOnrU65s-g) 
+  - 开源中国 OSCHINA： [云原生之微服务新观](https://my.oschina.net/u/4657223/blog/4566408)
+  - InfoQ Web: [在云原生时代，就一定要用微服务吗？](https://www.infoq.cn/article/22S2NR8bbxCIO63msskF)（InfoQ [公众号](https://mp.weixin.qq.com/s/gDIMrxt6V4vMkHX5dpeCSw)）
+
 - [Envoy功能点详解之异常点检测](https://www.servicemesher.com/blog/envoy-feature-explain-outlier-detection/) (InfoQ 转载:[链接](https://www.infoq.cn/article/Aj_62GtmUVsbdHfcr8l6)) 
 
 - [2020 年 Service Mesh 技术展望](https://www.servicemesher.com/blog/2020-service-mesh-technology-outlook/) (InfoQ 转载: [链接](https://www.infoq.cn/article/HOVMKdgv2rDOi5msdMyh?utm_source=rss&utm_medium=article))
