@@ -18,6 +18,10 @@
 
 - [Service Mesh 高可用在企业级生产中的实践](https://www.bilibili.com/video/BV1WT4y1u73W)
 
+- [百度云原生开源项目与落地实践](https://www.top100summit.com/detail?id=15042)
+ 
+ <img width="500" src="http://ww1.sinaimg.cn/large/bf8f1836ly1gmdxoe1cy8j218z2807wh.jpg"/>
+
 ### 原创
 
 - [云原生之微服务新观](https://mp.weixin.qq.com/s/BG96dppv-Ta0kOnrU65s-g) 
