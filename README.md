@@ -1,16 +1,18 @@
 ## Welcome to Guangming Luo 's home page
 
-我是罗广明（Guangming Luo），云原生技术专家、云原生技术布道师，致力于微服务构架、治理以及云原生相关的研究与开发，开源项目爱好者，DevOps与Scrum支持者与实践者，Service Mesh 布道者，对微服务配置中心、微服务治理模型有深入研究。
+我是罗广明（Guangming Luo），云原生技术专家、云原生技术布道师，一线微服务架构师，致力于微服务构架、治理以及云原生相关的研究、开发与商业化落地，开源项目爱好者，Service Mesh 布道者，对微服务配置中心、微服务治理模型有深入研究，对于开源项目运营、社区运营、技术品牌运营有一定的理解和实践经验。
 
 [Cloud Native Community 云原生社区](https://cloudnative.to/) 联合创始人&[管委会成员](https://cloudnative.to/team/)。
 
-[ServiceMesher 社区](http://www.servicemesher.com/) 治理委员，目前负责社区管理、规划、决策、投稿评审等。
+[CloudWeGo](https://github.com/cloudwego)开源项目 contributor & 开源负责人 
+
+[ServiceMesher 社区](http://www.servicemesher.com/)（网站即将下线） 治理委员，目前负责社区管理、规划、决策、投稿评审等。
 
 [Baidu/spring-cloud-formula](https://github.com/baidu/spring-cloud-formula): RateLimiter Spring Boot Starter、Config Client Spring Boot Starter 以及 Consul Config Spring Boot Starter 组件的作者。
 
 [云原生微服务应用平台](https://cloud.baidu.com/doc/CNAP/index.html) 微服务治理主要研发人员。
 
-目前研究的技术领域包含：Spring Boot框架与Spring Cloud全技术栈（分布式追踪、服务注册发现、配置中心、负载均衡、限流熔断降级），Service Mesh服务网格技术，微服务架构与技术选型等。
+目前研究的技术领域包含：Spring Boot 框架与 Spring Cloud 全技术栈（分布式追踪、服务注册发现、配置中心、负载均衡、限流熔断降级），Service Mesh 服务网格技术，Golang 微服务框架，微服务架构与技术选型等。
 
 ### 演讲/公开课
 
