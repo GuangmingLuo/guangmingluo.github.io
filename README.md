@@ -6,7 +6,7 @@
 
 [CloudWeGo](https://github.com/cloudwego)开源项目 contributor & 开源负责人 
 
-[ServiceMesher 社区](http://www.servicemesher.com/)（网站即将下线） 治理委员，目前负责社区管理、规划、决策、投稿评审等。
+[ServiceMesher 社区](http://www.servicemesher.com/) 治理委员，负责社区管理、规划、决策、投稿评审等。
 
 [Baidu/spring-cloud-formula](https://github.com/baidu/spring-cloud-formula): RateLimiter Spring Boot Starter、Config Client Spring Boot Starter 以及 Consul Config Spring Boot Starter 组件的作者。
 
@@ -15,16 +15,23 @@
 目前研究的技术领域包含：Spring Boot 框架与 Spring Cloud 全技术栈（分布式追踪、服务注册发现、配置中心、负载均衡、限流熔断降级），Service Mesh 服务网格技术，Golang 微服务框架，微服务架构与技术选型等。
 
 ### 演讲/公开课
+- 字节跳动技术沙龙：[流量洪峰，字节跳动服务网格流量治理思考与落地](https://live.juejin.cn/4354/9215648)
+  - 活动介绍：[95%应用云原生化，字节跳动研发架构的云端演进](https://mp.weixin.qq.com/s/ds7yGwU1Ge9acL8clgRhdg)
 
-- [走近微服务新时代：服务网格](http://abcxueyuan.baidu.com/#/course_detail?id=15179&courseId=15179&hmsr=%E6%B2%99%E9%BE%99%E5%BE%AE%E6%9C%8D%E5%8A%A1%E8%A7%86%E9%A2%91&hmpl=&hmcu=&hmkw=&hmci=)
+- 极客时间直播分享：[云原生核心技术及发展趋势](https://live.geekbang.org/room/1082)
 
-- [Service Mesh 高可用在企业级生产中的实践](https://www.bilibili.com/video/BV1WT4y1u73W)
+- 百度公开课：[走近微服务新时代：服务网格](http://abcxueyuan.baidu.com/#/course_detail?id=15179&courseId=15179&hmsr=%E6%B2%99%E9%BE%99%E5%BE%AE%E6%9C%8D%E5%8A%A1%E8%A7%86%E9%A2%91&hmpl=&hmcu=&hmkw=&hmci=)
 
-- [百度云原生开源项目与落地实践](https://www.top100summit.com/detail?id=15042)
+- 云原生社区直播分享：[Service Mesh 高可用在企业级生产中的实践](https://www.bilibili.com/video/BV1WT4y1u73W)
+
+- 全球软件案例研究 Top 100：[百度云原生开源项目与落地实践](https://www.top100summit.com/detail?id=15042)
  
- <img width="500" src="http://ww1.sinaimg.cn/large/bf8f1836ly1gmdxoe1cy8j218z2807wh.jpg"/>
 
 ### 原创
+
+- [行至2022，我们该如何看待服务网格？](https://mp.weixin.qq.com/s/4UxKd3-qzawY64R7P48FKQ)
+  - 开源中国 OSCHINA: [链接](https://my.oschina.net/u/5582173/blog/5391225)
+  - 知乎：[链接](https://zhuanlan.zhihu.com/p/452072507)
 
 - [云原生之微服务新观](https://mp.weixin.qq.com/s/BG96dppv-Ta0kOnrU65s-g) 
   - 开源中国 OSCHINA： [云原生之微服务新观](https://my.oschina.net/u/4657223/blog/4566408)
@@ -42,7 +49,13 @@
 
 - [火了 2 年的服务网格究竟给微服务带来了什么？](https://mp.weixin.qq.com/s/VPYPdD35rqj-z985xWiplA)
 
-### 编译
+
+### 观点
+
+- [云原生时代如何更合理地落地微服务？（上）](https://time.geekbang.org/column/article/290492)
+- [云原生时代如何更合理地落地微服务？（下）](https://time.geekbang.org/column/article/290491)
+
+### 翻译
 
 - [微服务断路器模式实现：Istio vs Hystrix](http://www.servicemesher.com/blog/istio-vs-hystrix-circuit-breaker/)
 
