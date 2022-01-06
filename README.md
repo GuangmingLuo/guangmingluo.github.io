@@ -4,7 +4,7 @@
 
 [Cloud Native Community 云原生社区](https://cloudnative.to/) 联合创始人&[管委会成员](https://cloudnative.to/team/)。
 
-[CloudWeGo](https://github.com/cloudwego)开源项目 contributor & 开源负责人 
+[CloudWeGo](https://github.com/cloudwego) 开源项目 maintainer & 开源治理负责人 
 
 [ServiceMesher 社区](http://www.servicemesher.com/) 治理委员，负责社区管理、规划、决策、投稿评审等。
 
@@ -52,6 +52,7 @@
 
 ### 观点
 
+- [一文了解字节跳动微服务中间件 CloudWeGo](https://mp.weixin.qq.com/s/cD9zsDqthbXNwirGaTrMKQ)
 - [云原生时代如何更合理地落地微服务？（上）](https://time.geekbang.org/column/article/290492)
 - [云原生时代如何更合理地落地微服务？（下）](https://time.geekbang.org/column/article/290491)
 
