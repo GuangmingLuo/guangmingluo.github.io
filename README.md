@@ -1,5 +1,8 @@
 ## Welcome to Guangming Luo 's home page
 
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+
+
 我是罗广明（Guangming Luo），云原生技术专家、云原生技术布道师，一线微服务架构师，致力于微服务构架、治理以及云原生相关的研究、开发与商业化落地，开源项目爱好者，Service Mesh 布道者，对微服务配置中心、微服务治理模型有深入研究，对于开源项目运营、社区运营、技术品牌运营有一定的理解和实践经验。
 
 [Cloud Native Community 云原生社区](https://cloudnative.to/) 联合创始人&[管委会成员](https://cloudnative.to/team/)。
