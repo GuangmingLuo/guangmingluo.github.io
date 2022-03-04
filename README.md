@@ -1,7 +1,6 @@
 ## Welcome to Guangming Luo 's home page
 
 <img width="40%" align="right" src="https://github-readme-stats.vercel.app/api?username=GuangmingLuo&show_icons=true&theme=dark&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" />
-</html>
 
 <div align="left">
   <a href="https://github.com/GuangmingLuo">
