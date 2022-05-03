@@ -24,7 +24,7 @@
 目前研究的技术领域包含：Spring Boot 框架与 Spring Cloud 全技术栈（分布式追踪、服务注册发现、配置中心、负载均衡、限流熔断降级），Service Mesh 服务网格技术，Golang 微服务框架，微服务架构与技术选型等。
 
 ### 演讲/公开课
-- 全球基础软件创新大会：[从 CloudWeGo 谈云原生时代的微服务与开源]（https://dive.infoq.cn/2021/beijing/presentation/3948）
+- 全球基础软件创新大会：[从 CloudWeGo 谈云原生时代的微服务与开源](https://dive.infoq.cn/2021/beijing/presentation/3948)
   - 直播回放：[DIVE 微服务&服务治理](https://dive.infoq.cn/2021/beijing/live?tid=1&lid=2&vid=3)
 
 - 字节跳动技术沙龙：[流量洪峰，字节跳动服务网格流量治理思考与落地](https://live.juejin.cn/4354/9215648)
