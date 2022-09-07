@@ -9,7 +9,7 @@
 </div>
 
 
-我是罗广明（Guangming Luo），云原生技术专家、云原生技术布道师，一线微服务架构师，致力于微服务构架、治理以及云原生相关的研究、开发与商业化落地，开源项目爱好者，Service Mesh 布道者，对微服务配置中心、微服务治理模型有深入研究，对于开源项目运营、社区运营、技术品牌运营有一定的理解和实践经验。
+我是罗广明（Guangming Luo），云原生技术专家、云原生技术布道师，一线微服务架构师，致力于微服务构架、治理以及云原生相关的研究、开发与商业化落地，开源项目爱好者，对微服务配置中心、微服务治理模型有深入研究，对于开源项目运营、社区运营、技术品牌运营有一定的理解和实践经验。
 
 [Cloud Native Community 云原生社区](https://cloudnative.to/) 联合创始人&[管委会成员](https://cloudnative.to/team/)。
 
@@ -41,6 +41,8 @@
 
 ### 原创
 
+- [从 CloudWeGo 谈云原生时代的微服务与开源](https://mp.weixin.qq.com/s/oH7_DnZLa_JW_tuqqdUweA)
+
 - [行至2022，我们该如何看待服务网格？](https://mp.weixin.qq.com/s/4UxKd3-qzawY64R7P48FKQ)
   - 开源中国 OSCHINA: [链接](https://my.oschina.net/u/5582173/blog/5391225)
   - 知乎：[链接](https://zhuanlan.zhihu.com/p/452072507)
@@ -62,8 +64,9 @@
 - [火了 2 年的服务网格究竟给微服务带来了什么？](https://mp.weixin.qq.com/s/VPYPdD35rqj-z985xWiplA)
 
 
-### 观点
+### 采访&观点
 
+- [OSCAR 2022 | 专访罗广明：字节跳动 “少而精” 开源战略下的明星项目 CloudWeGo](https://mp.weixin.qq.com/s/i5IJ-RvvObcfuCeDIhb4SQ)
 - [一文了解字节跳动微服务中间件 CloudWeGo](https://mp.weixin.qq.com/s/cD9zsDqthbXNwirGaTrMKQ)
 - [云原生时代如何更合理地落地微服务？（上）](https://time.geekbang.org/column/article/290492)
 - [云原生时代如何更合理地落地微服务？（下）](https://time.geekbang.org/column/article/290491)
