@@ -9,7 +9,7 @@
 </div>
 
 
-我是罗广明（Guangming Luo），云原生技术专家、云原生技术布道师，一线微服务架构师，致力于微服务构架、治理以及云原生相关的研究、开发与商业化落地，开源项目爱好者，对微服务配置中心、微服务治理模型有深入研究，对于开源项目运营、社区运营、技术品牌运营有一定的理解和实践经验。
+我是罗广明（Guangming Luo），云原生技术专家、云原生技术布道师，一线微服务架构师，致力于微服务构架、治理以及云原生相关的研究、开发与商业化落地，开源项目爱好者，对微服务配置中心、微服务治理模型有深入研究，对于开源项目运营、社区运营、技术品牌运营有一定的理解和实践经验。荣获中国信通院评选的 2022 年 OSCAR 尖峰开源人物。
 
 [Cloud Native Community 云原生社区](https://cloudnative.to/) 联合创始人&[管委会成员](https://cloudnative.to/team/)。
 
@@ -89,7 +89,7 @@
 
 - [实现Kubernetes Operator的新方式：Python](https://www.servicemesher.com/blog/kubernetes-operator-in-python/)
 
-- [服务网格Kuma爬过了 Kubernetes 这座大山](https://www.servicemesher.com/blog/kong-open-sources-kuma-the-universal-service-mesh/) (微信[公众号](https://mp.weixin.qq.com/s/7FlaDCsmOTOgSm-2IWZWiQ)内访问量破3000.)
+- [服务网格Kuma爬过了 Kubernetes 这座大山](https://www.servicemesher.com/blog/kong-open-sources-kuma-the-universal-service-mesh/) (微信[公众号](https://mp.weixin.qq.com/s/7FlaDCsmOTOgSm-2IWZWiQ))
 
 - [企业组织中采用服务网格的挑战](https://www.servicemesher.com/blog/challenges-of-adopting-service-mesh-in-enterprise-organizations/)
 
