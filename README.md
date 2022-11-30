@@ -17,11 +17,9 @@
 
 [ServiceMesher 社区](http://www.servicemesher.com/) 治理委员，负责社区管理、规划、决策、投稿评审等。
 
-[Baidu/spring-cloud-formula](https://github.com/baidu/spring-cloud-formula): RateLimiter Spring Boot Starter、Config Client Spring Boot Starter 以及 Consul Config Spring Boot Starter 组件的作者。
-
 [云原生微服务应用平台](https://cloud.baidu.com/doc/CNAP/index.html) 微服务治理主要研发人员。
 
-目前研究的技术领域包含：Spring Boot 框架与 Spring Cloud 全技术栈（分布式追踪、服务注册发现、配置中心、负载均衡、限流熔断降级），Service Mesh 服务网格技术，Golang 微服务框架，微服务架构与技术选型等。
+研究的技术领域包含：Spring Boot 框架与 Spring Cloud 服务治理技术，Service Mesh 服务网格技术，Golang 微服务框架，微服务架构与技术选型等。
 
 ### 演讲/公开课
 - 全球基础软件创新大会：[从 CloudWeGo 谈云原生时代的微服务与开源](https://dive.infoq.cn/2021/beijing/presentation/3948)
