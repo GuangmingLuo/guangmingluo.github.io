@@ -22,11 +22,16 @@
 研究的技术领域包含：Spring Boot 框架与 Spring Cloud 服务治理技术，Service Mesh 服务网格技术，Golang 微服务框架，微服务架构与技术选型等。
 
 ### 演讲/公开课
-- 全球基础软件创新大会：[从 CloudWeGo 谈云原生时代的微服务与开源](https://dive.infoq.cn/2021/beijing/presentation/3948)
-  - 直播回放：[DIVE 微服务&服务治理](https://dive.infoq.cn/2021/beijing/live?tid=1&lid=2&vid=3)
 
-- 字节跳动技术沙龙：[流量洪峰，字节跳动服务网格流量治理思考与落地](https://live.juejin.cn/4354/9215648)
-  - 活动介绍：[95%应用云原生化，字节跳动研发架构的云端演进](https://mp.weixin.qq.com/s/ds7yGwU1Ge9acL8clgRhdg)
+- 2022 GDCC 全球分布式云大会：[CloudWeGo 在开源与微服务方向的探索与实践](https://mp.weixin.qq.com/s/Pbbi0zh43IE2pjMOhAOeKQ)
+
+- 2022 Top 100 全球软件案例研究峰会：[基于 Kitex Proxyless 和 Istio 的全链路泳道微服务实践](https://www.top100summit.com/detail?id=16630)
+
+- 2022 OSCAR 开源产业大会：[CloudWeGo 开源实践：浅谈开源的道与术](https://mp.weixin.qq.com/s/1MF7VZqFpLhetf2Rik5hfw)
+
+- 2022 全球基础软件创新大会：[从 CloudWeGo 谈云原生时代的微服务与开源](https://dive.infoq.cn/2022/beijing/presentation/3948) | [直播回放](https://dive.infoq.cn/2022/beijing/live?tid=1&lid=2&vid=3)
+
+- 2021 字节跳动技术沙龙：[流量洪峰，字节跳动服务网格流量治理思考与落地](https://live.juejin.cn/4354/9215648) | [活动介绍](https://mp.weixin.qq.com/s/ds7yGwU1Ge9acL8clgRhdg)
 
 - 极客时间直播分享：[云原生核心技术及发展趋势](https://live.geekbang.org/room/1082)
 
@@ -34,7 +39,7 @@
 
 - 云原生社区直播分享：[Service Mesh 高可用在企业级生产中的实践](https://www.bilibili.com/video/BV1WT4y1u73W)
 
-- 全球软件案例研究 Top 100：[百度云原生开源项目与落地实践](https://www.top100summit.com/detail?id=15042)
+- 2020 Top 100 全球软件案例研究峰会 ：[百度云原生开源项目与落地实践](https://www.top100summit.com/detail?id=15042)
  
 
 ### 原创
