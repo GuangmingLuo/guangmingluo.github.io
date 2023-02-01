@@ -29,9 +29,9 @@
 
 - 2022 OSCAR 开源产业大会：[CloudWeGo 开源实践：浅谈开源的道与术](https://mp.weixin.qq.com/s/1MF7VZqFpLhetf2Rik5hfw)
 
-- 2022 全球基础软件创新大会：[从 CloudWeGo 谈云原生时代的微服务与开源](https://dive.infoq.cn/2022/beijing/presentation/3948) | [直播回放](https://dive.infoq.cn/2022/beijing/live?tid=1&lid=2&vid=3)
+- 2022 全球基础软件创新大会：[从 CloudWeGo 谈云原生时代的微服务与开源](https://dive.infoq.cn/2022/beijing/presentation/3948) / [直播回放](https://dive.infoq.cn/2022/beijing/live?tid=1&lid=2&vid=3)
 
-- 2021 字节跳动技术沙龙：[流量洪峰，字节跳动服务网格流量治理思考与落地](https://live.juejin.cn/4354/9215648) | [活动介绍](https://mp.weixin.qq.com/s/ds7yGwU1Ge9acL8clgRhdg)
+- 2021 字节跳动技术沙龙：[流量洪峰，字节跳动服务网格流量治理思考与落地](https://live.juejin.cn/4354/9215648) / [活动介绍](https://mp.weixin.qq.com/s/ds7yGwU1Ge9acL8clgRhdg)
 
 - 极客时间直播分享：[云原生核心技术及发展趋势](https://live.geekbang.org/room/1082)
 
@@ -58,7 +58,7 @@
 
 - [2020 年 Service Mesh 技术展望](https://www.servicemesher.com/blog/2020-service-mesh-technology-outlook/) (InfoQ 转载: [链接](https://www.infoq.cn/article/HOVMKdgv2rDOi5msdMyh?utm_source=rss&utm_medium=article))
 
-- [Service Mesh 概述](https://www.servicemesher.com/istio-handbook/concepts/overview.html)
+- [Service Mesh 概述](https://github.com/servicemesher/istio-handbook/blob/master/concepts/basic.md)
 
 - [混合微服务高可用在企业级生产中的实践](https://cloudnative.to/blog/microservices-ha-practice/)（公众号:[链接](https://mp.weixin.qq.com/s/pdi98f2p2ROWeHf3h-Y6HQ)）
 
