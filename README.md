@@ -44,6 +44,8 @@
 
 ### 原创
 
+- [微服务进入深水区后该何去何从](https://www.infoq.cn/article/O01i9lalNBIc3h1RzkuM)
+
 - [从 CloudWeGo 谈云原生时代的微服务与开源](https://mp.weixin.qq.com/s/oH7_DnZLa_JW_tuqqdUweA)
 
 - [行至2022，我们该如何看待服务网格？](https://mp.weixin.qq.com/s/4UxKd3-qzawY64R7P48FKQ)
