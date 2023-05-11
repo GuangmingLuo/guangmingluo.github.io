@@ -23,7 +23,7 @@
 
 ### 演讲/公开课
 
-- 2022 GDCC 全球分布式云大会：[CloudWeGo 在开源与微服务方向的探索与实践](https://mp.weixin.qq.com/s/Pbbi0zh43IE2pjMOhAOeKQ)
+- 2022 GDCC 全球分布式云大会：[CloudWeGo 在开源与微服务方向的探索与实践](https://mp.weixin.qq.com/s/vgQgIo5CjgfNyL-8YRKzow)
 
 - 2022 Top 100 全球软件案例研究峰会：[基于 Kitex Proxyless 和 Istio 的全链路泳道微服务实践](https://www.top100summit.com/detail?id=16630)
 
