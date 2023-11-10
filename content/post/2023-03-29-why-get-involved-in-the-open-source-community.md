@@ -33,7 +33,7 @@ categories: [ OpenSource ]
 ## 文化洗礼
 
 2018 年，那个时候云原生和微服务在国内刚刚掀起一股龙卷风，如同刚刚过去敏捷训练浪潮一样迅猛。我机缘巧合在比较早的时间节点就探索了 Spring Cloud 全家桶以及 K8S、Docker、Prometheus 等云原生技术。**软件吞噬世界**，**开源吞噬软件**，而云原生技术就是被开源所吞噬。
-基于云原生技术的探索，我对于开源充满了好奇，加入了 ServiceMesher 社区，认识了很多社区小伙伴，一起协作做了不少文档和博客翻译的工作。文档成为了大家研究 Istio 开源项目的资料，博客发布到了多个公众号和技术网站上。这是我对于开源社区和开源文化的初体验。
+基于云原生技术的探索，我对于开源充满了好奇，加入了 [ServiceMesher](https://github.com/servicemesher) 社区，认识了很多社区小伙伴，一起协作做了不少文档和博客翻译的工作。文档成为了大家研究 Istio 开源项目的资料，博客发布到了多个公众号和技术网站上。这是我对于开源社区和开源文化的初体验。
 
 2019 年底，一个机缘巧合下了解到清华大学举办开源之道大讲堂且面向社会开放，我和好友 Jimmy 一起去参加了这个活动。在这个活动中，我第一次见到了许多著名的开源 KOL 和领袖，初步了解了 Apache 基金会以及国内参与开源和主动开源的进展，并了解到了 Apache 文化 Apache Way。
 这场活动和文化盛宴对我来说影响是潜移默化的，是影响深远的，更是多个层面的，包括将开源的种子植入到了我的内心深处。
@@ -47,7 +47,7 @@ categories: [ OpenSource ]
 
 ## 开源布道
 
-2020 年，感谢 Jimmy Song 的邀请，几个志同道合的朋友一起成立了**云原生社区**，希望在国内布道更多云原生技术并提供一个交流的平台，不再局限于服务网格技术。渐渐地，我在业务时间承载了更多社区治理和布道的工作，也认识了非常多的开源技术专家和终端用户，与此同时我对服务网格以及 Istio 相关开源项目有了较深入的理解。
+2020 年，感谢 Jimmy Song 的邀请，几个志同道合的朋友一起成立了**[云原生社区](https://github.com/cloudnativeto)**，希望在国内布道更多云原生技术并提供一个交流的平台，不再局限于服务网格技术。渐渐地，我在业务时间承载了更多社区治理和布道的工作，也认识了非常多的开源技术专家和终端用户，与此同时我对服务网格以及 Istio 相关开源项目有了较深入的理解。
 兴许也是因为我的社区身份，受到了百度开源办公室谭中意老师的邀请，面向百度内部开源社区全员分享了 Service Mesh。很荣幸，这个课程让很多百度同学了解了服务网格这个技术和 Istio 相关开源项目，据了解，后来有很多新加入的同学都看了这个视频录播，有的主动和我建立了个人联系。大家的鼓励和点赞让我获得很强的幸福感和成就感，让我深刻体会了技术布道的价值，这也是知识共享带来的力量。
 
 2020 年底，感谢当时领导的信任，推荐我去报名参加了 Top 100 全球软件案例研究峰会，代表团队对外分享了 “百度云原生开源项目与落地实践”，具体内容涵盖了 bRPC 在内的三个百度开源项目的进展介绍和落地实践分享。在这场分享的尾声，我提出了两个案例启示：
@@ -72,7 +72,7 @@ categories: [ OpenSource ]
 
 ![](/img/why-get-involved-in-the-open-source-community/cloud-native-community.png)
 
-2021 年底，首届 Kubernetes Community Days（KCD）北京站在北京微软大厦成功举办，数十位来自一线云计算厂商的架构师、CTO 和开源项目的 Maintaner 相聚一堂，分享了关于 CNCF 生态下的热门技术话题，据了解线下有 150 余人参会，线上有 5000 以上人次观看。
+2021 年底，首届 Kubernetes Community Days（KCD）北京站在北京微软大厦成功举办，数十位来自一线云计算厂商的架构师、CTO 和开源项目的 Maintainer 相聚一堂，分享了关于 CNCF 生态下的热门技术话题，据了解线下有 150 余人参会，线上有 5000 以上人次观看。
 很荣幸，我参与了线下活动相关策划、组织了志愿者并主持了下半场活动，在圆桌环节和几位开源社区负责人围绕 “开源贡献” 为主题的话题进行了深入探讨。
 
 ![](/img/why-get-involved-in-the-open-source-community/kcd-round-table.png)
@@ -82,7 +82,7 @@ categories: [ OpenSource ]
 
 ## CloudWeGo
 
-2021 年，CloudWeGo 开源了，这在我的个人经历上可能具有 “划时代” 的意义。我开始深入钻研开源文化、开源治理、开源合规、开源技术、开源运营等方方面面的知识，训练自己各个方面的能力和判断力。详见 [OSCAR 2022 | 专访罗广明：字节跳动 “少而精” 开源战略下的明星项目 CloudWeGo](https://link.segmentfault.com/?enc=IYsm2mNDq0ova8suguld6A%3D%3D.rWAq8SiwxW3VsOsL9dT3JhTU4XqUppE4E4KS%2Bf17K20x7CI93l%2FIZ0KOjLNw0waAdkAdBAx8IOtgo4Vax6ry6g%3D%3D)
+2021 年，[CloudWeGo](https://github.com/cloudwego) 开源了，这在我的个人经历上可能具有 “划时代” 的意义。我开始深入钻研开源文化、开源治理、开源合规、开源技术、开源运营等方方面面的知识，训练自己各个方面的能力和判断力。详见 [OSCAR 2022 | 专访罗广明：字节跳动 “少而精” 开源战略下的明星项目 CloudWeGo](https://link.segmentfault.com/?enc=IYsm2mNDq0ova8suguld6A%3D%3D.rWAq8SiwxW3VsOsL9dT3JhTU4XqUppE4E4KS%2Bf17K20x7CI93l%2FIZ0KOjLNw0waAdkAdBAx8IOtgo4Vax6ry6g%3D%3D)
 
 在开源社区，大家都是基于贡献说话，主张一切 Work in Public，一切都（尽量）发生 Github 上面，所以，在此之后的一年里，我的 Github 活跃度开始肉眼可见变得 “密集”。除了 Contribution (Issues, pull requests and discussions)，还有更多的 Github Action (comments, label, assign, approve) 是公开不可见的。
 

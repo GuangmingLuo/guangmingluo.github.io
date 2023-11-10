@@ -15,7 +15,7 @@ home = ["HTML", "RSS", "Algolia"]
   header_image = "img/bg/home-bg-mars.jpeg"
   SEOTitle = "罗广明的博客 |  Blog"
   description = "罗广明, 开源爱好者，旅行探险家 | 这里是 罗广明 的博客，与你一起发现更大的世界。"
-  keyword = "罗广明, Guangming, LuoGuangming, 罗广明的网络日志,罗广明的博客, Guangming Blog, 博客, 个人网站, 互联网, Web, 云原生, Istio, RPC, 微服务, Microservice"
+  keyword = "罗广明, Guangming, LuoGuangming, 罗广明的网络日志,罗广明的博客, Guangming Blog, 博客, 个人网站, 互联网, Web, 云原生, Istio, RPC, 微服务, Microservice, CloudWeGo"
   slogan = "路在脚下，心向远方"
 
   image_404 = "img/bg/404-bg.jpg"
@@ -98,12 +98,12 @@ home = ["HTML", "RSS", "Algolia"]
   title = "云原生社区"
   href =  "https://cloudnative.to/"
 
-  [[params.bookmark_link]]
-  title =  "Martin Fowler"
-  href =  "https://martinfowler.com"
-  [[params.bookmark_link]]
-  title = "ServiceMesher"
-  href =  "http://www.servicemesher.com"
+#  [[params.bookmark_link]]
+#  title =  "Martin Fowler"
+#  href =  "https://martinfowler.com"
+#  [[params.bookmark_link]]
+#  title = "ServiceMesher"
+#  href =  "http://www.servicemesher.com"
   
   [[params.addtional_menus]]
   title =  "ARCHIVE"
