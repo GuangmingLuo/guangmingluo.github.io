@@ -5,7 +5,7 @@ subtitle:   "HashiCorp CEO 为公司的许可证切换进行辩护"
 description: "HashiCorp的首席执行官预测，除非社区重新思考如何保护创新，否则硅谷将不再有“开源公司”。"
 date:       2023-10-17 12:00:00
 author:     "罗广明"
-image: "/img/bg/bridge2.png"
+image: "/img/bg/bridge2.jpeg"
 published: true
 tags:
     - 开源社区
@@ -15,7 +15,7 @@ URL: "/2023/10/17/hashicorp-ceo-interview-on-open-source/"
 categories: [ OpenSource ]    
 ---
 
-![](/img/hashicorp-ceo-interview-on-open-source/commercial-os.jpeg)
+![](/img/hashicorp-ceo-interview-on-open-source/commercial-os.png)
 
 [HashiCorp](https://www.hashicorp.com/) 的首席执行官预测，**除非社区重新思考如何保护创新，否则硅谷将不再有“开源公司”**，他在本月的用户大会上为公司的许可证切换进行了辩护。
 
