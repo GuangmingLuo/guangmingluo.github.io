@@ -99,7 +99,7 @@ home = ["HTML", "RSS", "Algolia"]
   href =  "https://cloudnative.to/"
   [[params.friend_link]]
   title = "Jimmy Song"
-  href =  "https://cloudnative.to/"
+  href =  "https://jimmysong.io/"
 
 #  [[params.bookmark_link]]
 #  title =  "Martin Fowler"
