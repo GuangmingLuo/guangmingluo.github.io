@@ -1,0 +1,288 @@
+<div class="entry-reward-wrapper">
+    <div class="entry-reward text-center">
+        {{ if .Site.Params.reward_guide }}
+        <p class="reward-guide"><i class="fa fa-heart"></i> {{ .Site.Params.reward_guide }}</p>
+        {{ else }}
+        <p class="reward-guide"><i class="fa fa-heart"></i> 如果这篇文章对您有帮助，欢迎赞赏支持</p>
+        {{ end }}
+        <button class="reward-btn btn" id="rewardBtn">
+            <i class="fa fa-coffee"></i> 请我喝杯咖啡
+        </button>
+    </div>
+</div>
+
+<!-- Reward Modal -->
+<div class="reward-modal-overlay" id="rewardModal"></div>
+<div class="reward-modal" id="rewardModalBox">
+    <div class="reward-modal-close" id="rewardModalClose">
+        <i class="fa fa-times"></i>
+    </div>
+    <div class="reward-modal-header">
+        <div class="reward-avatar">
+            <img src="{{ "img/favicon.png" | relURL }}" alt="{{ .Site.Title }}">
+        </div>
+        <h3>{{ .Site.Title }}</h3>
+        {{ if .Site.Params.reward_guide }}
+        <p class="reward-desc">{{ .Site.Params.reward_guide }}</p>
+        {{ else }}
+        <p class="reward-desc">您的支持是我创作的动力</p>
+        {{ end }}
+    </div>
+    <div class="reward-modal-body">
+        <div class="reward-tabs">
+            <button class="reward-tab active" data-type="alipay">
+                <i class="fa fa-alipay"></i> 支付宝
+            </button>
+        </div>
+        <div class="reward-qrcode">
+            <div class="qrcode-wrapper alipay-qrcode active">
+                <img src="{{ "img/reward/alipay-qrcode.jpg" | relURL }}" alt="支付宝收款码" onerror="this.src='{{ "img/reward/alipay-qrcode.jpg" | relURL }}'">
+                <p>支付宝扫码赞赏</p>
+            </div>
+        </div>
+    </div>
+    <div class="reward-modal-footer">
+        <p class="reward-tip">长按保存图片，扫码赞赏</p>
+    </div>
+</div>
+
+<style>
+.entry-reward-wrapper {
+    margin: 40px 0;
+    padding: 30px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.entry-reward .reward-guide {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.entry-reward .reward-guide i {
+    color: #ff6b6b;
+    margin-right: 8px;
+}
+
+.reward-btn {
+    background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+    color: white;
+    border: none;
+    padding: 12px 32px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(14, 165, 233, 0.3);
+}
+
+.reward-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(14, 165, 233, 0.4);
+}
+
+.reward-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9998;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.reward-modal-overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+.reward-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 420px;
+    z-index: 9999;
+    display: none;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+    transition: all 0.3s ease;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.reward-modal.active {
+    display: block;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.reward-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    color: #999;
+    cursor: pointer;
+    transition: color 0.3s;
+    z-index: 10;
+}
+
+.reward-modal-close:hover {
+    color: #333;
+}
+
+.reward-modal-header {
+    text-align: center;
+    padding: 30px 20px 20px;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-radius: 20px 20px 0 0;
+}
+
+.reward-avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reward-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reward-modal-header h3 {
+    margin: 0 0 10px;
+    font-size: 22px;
+    color: #333;
+}
+
+.reward-desc {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.reward-modal-body {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.reward-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.reward-tab {
+    background: #f5f5f5;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.reward-tab.active {
+    background: #1677ff;
+    color: white;
+}
+
+.reward-qrcode {
+    display: flex;
+    justify-content: center;
+}
+
+.qrcode-wrapper {
+    display: none;
+}
+
+.qrcode-wrapper.active {
+    display: block;
+}
+
+.qrcode-wrapper img {
+    width: 220px;
+    height: 220px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.qrcode-wrapper p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.reward-modal-footer {
+    padding: 15px 20px 25px;
+    text-align: center;
+    border-top: 1px solid #eee;
+}
+
+.reward-tip {
+    margin: 0;
+    color: #999;
+    font-size: 13px;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const rewardBtn = document.getElementById('rewardBtn');
+    const rewardModal = document.getElementById('rewardModal');
+    const rewardModalBox = document.getElementById('rewardModalBox');
+    const rewardModalClose = document.getElementById('rewardModalClose');
+    const rewardTabs = document.querySelectorAll('.reward-tab');
+    const qrcodeWrappers = document.querySelectorAll('.qrcode-wrapper');
+
+    if (rewardBtn) {
+        rewardBtn.addEventListener('click', function() {
+            rewardModal.classList.add('active');
+            rewardModalBox.classList.add('active');
+        });
+    }
+
+    function closeModal() {
+        rewardModal.classList.remove('active');
+        rewardModalBox.classList.remove('active');
+    }
+
+    if (rewardModalClose) {
+        rewardModalClose.addEventListener('click', closeModal);
+    }
+
+    if (rewardModal) {
+        rewardModal.addEventListener('click', closeModal);
+    }
+
+    rewardTabs.forEach((tab, index) => {
+        tab.addEventListener('click', function() {
+            rewardTabs.forEach(t => t.classList.remove('active'));
+            qrcodeWrappers.forEach(q => q.classList.remove('active'));
+            
+            tab.classList.add('active');
+            const type = tab.getAttribute('data-type');
+            document.querySelector('.' + type + '-qrcode').classList.add('active');
+        });
+    });
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            closeModal();
+        }
+    });
+});
+</script>

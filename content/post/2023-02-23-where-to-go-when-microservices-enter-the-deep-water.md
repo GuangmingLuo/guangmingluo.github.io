@@ -6,7 +6,6 @@ description: "步入 2022 年，服务网格大势所趋，Proxy Service Mesh �
 date:       2023-02-23 12:00:00
 author:     "罗广明"
 image: "/img/bg/rice-field.png"
-published: true
 tags:
     - 微服务
     - 微服务架构

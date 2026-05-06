@@ -6,7 +6,6 @@ description: "在企业内部做开源项目，是一次创新，也是一次变
 date:       2024-08-12 08:00:00
 author:     "罗广明"
 image: "/img/bg/post-bg-unix-linux.jpg"
-published: true
 tags:
     - 创新
     - 开源

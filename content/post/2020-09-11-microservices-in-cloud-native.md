@@ -6,7 +6,6 @@ description: "在云原生时代，是否需要微服务？什么时候应该采
 date:       2020-09-11 12:00:00
 author:     "罗广明"
 image: "/img/bg/post-bg-coffee.jpeg"
-published: true
 tags:
     - Microservice
     - Cloud Native

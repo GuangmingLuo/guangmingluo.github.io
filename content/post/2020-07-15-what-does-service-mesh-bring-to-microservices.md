@@ -6,7 +6,6 @@ description: "在过去几年中，微服务成为了业界技术热点，大量
 date:       2020-07-15 12:00:00
 author:     "罗广明"
 image: "/img/bg/flower1.png"
-published: true
 tags:
     - Microservice
     - Service Mesh

@@ -6,7 +6,6 @@ description: "HashiCorp的首席执行官预测，除非社区重新思考如何
 date:       2023-10-17 12:00:00
 author:     "罗广明"
 image: "/img/bg/bridge2.jpeg"
-published: true
 tags:
     - 开源社区
     - 开源文化

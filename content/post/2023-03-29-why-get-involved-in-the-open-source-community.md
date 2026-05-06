@@ -6,7 +6,6 @@ description: "回忆起参与开源社区经历的点点滴滴，我把参与社
 date:       2023-03-29 12:00:00
 author:     "罗广明"
 image: "/img/bg/river.png"
-published: true
 tags:
     - 开源社区
     - 开源文化

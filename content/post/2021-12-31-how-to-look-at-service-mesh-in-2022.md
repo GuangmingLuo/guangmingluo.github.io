@@ -6,7 +6,6 @@ description: "步入 2022 年，服务网格大势所趋，Proxy Service Mesh �
 date:       2021-12-31 12:00:00
 author:     "罗广明"
 image: "/img/bg/flower2.png"
-published: true
 tags:
     - 服务网格
     - Istio

@@ -6,7 +6,6 @@ description: "总结一下近期关于开源的一点理解，如果您和我理
 date:       2022-01-18 12:00:00
 author:     "罗广明"
 image: "/img/bg/sky.jpeg"
-published: true
 tags:
     - 开源共同体
     - Open Source

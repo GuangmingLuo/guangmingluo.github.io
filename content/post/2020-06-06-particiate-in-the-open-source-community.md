@@ -6,7 +6,6 @@ description: "开源已经无处不在，不管你是从事架构、开发、运
 date:       2020-06-06 12:00:00
 author:     "罗广明"
 image: "/img/bg/post-bg-unix-linux.jpg"
-published: true
 tags:
     - 开源
     - Open Source
