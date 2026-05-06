@@ -6,7 +6,6 @@ description: "尽管微服务架构长期以来被视为云原生应用的事实
 date:       2024-01-27 12:00:00
 author:     "罗广明"
 image: "/img/bg/post-bg-unix-linux.jpg"
-published: true
 tags:
     - 微服务
     - 微服务架构

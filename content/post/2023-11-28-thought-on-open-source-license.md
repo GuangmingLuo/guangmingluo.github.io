@@ -6,7 +6,6 @@ description: "开源项目初创团队必须要重视开源许可证的选型，
 date:       2023-11-28 12:00:00
 author:     "罗广明"
 image: "/img/bg/sunset.jpeg"
-published: true
 tags:
     - 开源社区
     - 开源文化

@@ -5,8 +5,10 @@ languageCode = "en-us"
 # Google Analytics
 googleAnalytics = "G-TDZ7Y74PRC"
 preserveTaxonomyNames = true
-paginate = 5 #frontpage pagination
 hasCJKLanguage = true
+
+[pagination]
+pagerSize = 5
 
 [outputs]
 home = ["HTML", "RSS", "Algolia"]
@@ -61,9 +63,9 @@ home = ["HTML", "RSS", "Algolia"]
   # Follow https://twikoo.js.org/ to set up your own env_id
   twikoo_env_id = ""
 
-  #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
-  reward = false
-  # reward_guide = "如果这篇文章对你有用,请随意打赏" 
+  #Enable wechat pay & alipay to allow readers send reward money if they like the articles
+  reward = true
+  reward_guide = "如果这篇文章对你有帮助，欢迎赞赏支持我的创作" 
 
   friends = true
   bookmarks = false

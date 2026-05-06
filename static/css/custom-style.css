@@ -1,0 +1,253 @@
+/* Custom Modern Styles for Blog */
+
+/* Global Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    line-height: 1.8;
+    color: #334155;
+}
+
+/* Header Styles */
+.intro-header {
+    position: relative;
+}
+
+.intro-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.7) 0%, rgba(30, 41, 59, 0.5) 100%);
+    z-index: 1;
+}
+
+.intro-header .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Navigation */
+.navbar-custom {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Post Cards */
+.post-preview {
+    padding: 30px 0;
+    border-bottom: 1px solid #f1f5f9;
+    transition: all 0.3s ease;
+}
+
+.post-preview:hover {
+    transform: translateX(10px);
+}
+
+.post-preview > a {
+    color: #1e293b;
+    transition: color 0.3s ease;
+}
+
+.post-preview > a:hover,
+.post-preview > a:focus {
+    color: #0ea5e9;
+    text-decoration: none;
+}
+
+.post-title {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.post-subtitle {
+    font-size: 18px;
+    color: #64748b;
+    font-weight: 400;
+}
+
+.post-meta {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 8px;
+    padding: 10px 24px;
+    transition: all 0.3s ease;
+}
+
+.btn-default {
+    border: 2px solid #0ea5e9;
+    color: #0ea5e9;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    background: #0ea5e9;
+    color: white;
+    border-color: #0ea5e9;
+}
+
+/* Sidebar */
+.sidebar-container h5 {
+    color: #475569;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+}
+
+.sidebar-container .short-about img {
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-container .tags a {
+    background: #f1f5f9;
+    border: none;
+    color: #475569;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin: 4px;
+    transition: all 0.3s ease;
+}
+
+.sidebar-container .tags a:hover {
+    background: #0ea5e9;
+    color: white;
+}
+
+/* Code Blocks */
+pre {
+    border-radius: 8px;
+    border: none;
+    background: #1e293b !important;
+    padding: 20px;
+}
+
+pre code {
+    color: #e2e8f0;
+}
+
+/* Inline Code */
+code {
+    background: #f1f5f9;
+    color: #dc2626;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+/* Blockquote */
+blockquote {
+    border-left: 4px solid #0ea5e9;
+    background: #f8fafc;
+    padding: 20px 24px;
+    margin: 30px 0;
+    border-radius: 0 8px 8px 0;
+    color: #475569;
+}
+
+/* Images */
+img {
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Links */
+a {
+    color: #0ea5e9;
+    transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+    color: #0284c7;
+}
+
+/* Post Container */
+.post-container {
+    font-size: 17px;
+}
+
+.post-container h1,
+.post-container h2,
+.post-container h3,
+.post-container h4,
+.post-container h5,
+.post-container h6 {
+    font-weight: 600;
+    color: #1e293b;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+/* Pager */
+.pager li > a,
+.pager li > span {
+    border-radius: 30px;
+    border: 2px solid #e2e8f0;
+    color: #475569;
+    padding: 10px 24px;
+    transition: all 0.3s ease;
+}
+
+.pager li > a:hover,
+.pager li > a:focus {
+    background: #0ea5e9;
+    border-color: #0ea5e9;
+    color: white;
+}
+
+/* Footer */
+footer {
+    padding: 60px 0 40px;
+    background: #f8fafc;
+    border-top: 1px solid #e2e8f0;
+}
+
+footer .copyright {
+    color: #64748b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .post-title {
+        font-size: 22px;
+    }
+    
+    .post-subtitle {
+        font-size: 16px;
+    }
+    
+    .intro-header .post-heading h1 {
+        font-size: 30px;
+    }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.post-preview {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.post-preview:nth-child(1) { animation-delay: 0.1s; }
+.post-preview:nth-child(2) { animation-delay: 0.2s; }
+.post-preview:nth-child(3) { animation-delay: 0.3s; }
+.post-preview:nth-child(4) { animation-delay: 0.4s; }
+.post-preview:nth-child(5) { animation-delay: 0.5s; }
