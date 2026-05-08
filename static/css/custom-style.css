@@ -28,11 +28,21 @@ body {
     z-index: 2;
 }
 
-/* Navigation */
-.navbar-custom {
+/* Navigation - 只在滚动固定时添加白色背景，顶部保持透明 */
+.navbar-custom.is-fixed {
     background: rgba(255, 255, 255, 0.95) !important;
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-custom.is-fixed .navbar-brand,
+.navbar-custom.is-fixed .nav li a {
+    color: #404040 !important;
+}
+
+.navbar-custom.is-fixed .navbar-brand:hover,
+.navbar-custom.is-fixed .nav li a:hover {
+    color: #0085a1 !important;
 }
 
 /* Post Cards */
