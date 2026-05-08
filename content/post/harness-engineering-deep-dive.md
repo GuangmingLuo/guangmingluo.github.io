@@ -1,19 +1,9 @@
 ---
-layout:     post
-title:      "驾驭工程：当 AI Agent 的控制面不是代码，而是提示词"
-subtitle:   "从 Claude Code 源码看 AI 编码系统的全新工程范式"
+title: "驾驭工程：当 AI Agent 的控制面不是代码，而是提示词"
+date: 2026-05-08T14:00:00+08:00
+categories: ["tech"]
+tags: ["AI", "Claude Code", "驾驭工程", "AI Agent", "架构设计"]
 description: "《驾驭工程》从 Claude Code 泄露源码中提炼出了一套完整的 AI Agent 工程范式。本文不是读书笔记，而是试图回答一个更根本的问题：当控制 AI 行为的主要手段从代码逻辑变成了提示词，软件工程需要一场怎样的范式革命？"
-date:       2026-05-08 14:00:00
-author:     "罗广明"
-image:      "/img/post/harness-cover.jpg"
-tags:
-    - AI
-    - Claude Code
-    - 驾驭工程
-    - AI Agent
-    - 架构设计
-categories: [ Tech ]
-URL:        "/2026/05/08/harness-engineering-deep-dive/"
 ---
 
 ![驾驭工程封面](/img/post/harness-cover.jpg)
