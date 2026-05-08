@@ -1,0 +1,130 @@
+{{ define "header" }}
+<header class="intro-header" style="background-image: url('{{ .Site.Params.header_image | relURL }}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>每日科技早报</h1>
+                    <span class="subheading">每日精选科技资讯，洞察行业前沿动态</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+{{ end }}
+
+{{ define "main" }}
+<div class="container">
+    <div class="row">
+        <div class="
+            col-lg-8 col-lg-offset-2
+            col-md-10 col-md-offset-1
+            post-container
+        ">
+            {{ $pages := where .Site.RegularPages "Type" "daily-news" }}
+            {{ $paginator := .Paginate $pages }}
+            {{ range $paginator.Pages }}
+            <article class="post-preview daily-news-preview">
+                <a href="{{ .RelPermalink }}">
+                    <h2 class="post-title">{{ .Title }}</h2>
+                    {{ if .Params.description }}
+                    <h3 class="post-subtitle">{{ .Params.description }}</h3>
+                    {{ end }}
+                </a>
+                <p class="post-meta">
+                    {{ .Date.Format "2006年01月02日" }}
+                    {{ if .Params.categories }}
+                    {{ range .Params.categories }}
+                    <span class="tag-label">{{ . }}</span>
+                    {{ end }}
+                    {{ end }}
+                </p>
+            </article>
+            {{ end }}
+
+            {{ partial "pagination.html" . }}
+        </div>
+
+        <div class="
+            col-lg-8 col-lg-offset-2
+            col-md-10 col-md-offset-1
+            sidebar-container
+        ">
+            {{ if .Site.Params.featured_tags }}
+            <section>
+                <hr class="hidden-sm hidden-xs">
+                <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                <div class="tags">
+                    {{ $featured_condition_size := .Site.Params.featured_condition_size }}
+                    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                    {{ if gt (len $taxonomy.Pages) $featured_condition_size }}
+                    <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" title="{{ $name }}">
+                        {{ $name }}
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </section>
+            {{ end }}
+
+            {{ if .Site.Params.friends }}
+            <section>
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    {{ range .Site.Params.friend_link }}
+                    <li><a target="_blank" href="{{.href}}">{{.title}}</a></li>
+                    {{ end }}
+                </ul>
+            </section>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+<style>
+.daily-news-preview {
+    padding: 24px 0;
+    border-bottom: 1px solid #f1f5f9;
+    transition: all 0.3s ease;
+}
+
+.daily-news-preview:hover {
+    transform: translateX(8px);
+    background: #f8fafc;
+    border-radius: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.daily-news-preview .post-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.daily-news-preview .post-subtitle {
+    font-size: 15px;
+    color: #64748b;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.daily-news-preview .tag-label {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #475569;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+    .daily-news-preview .post-title {
+        font-size: 18px;
+    }
+}
+</style>
+{{ end }}

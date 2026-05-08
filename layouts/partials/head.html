@@ -32,9 +32,9 @@
     <meta property="og:title" content="{{ .Params.title }}" />
     <meta property="twitter:title" content="{{ .Params.title }}" />
     {{ else }}
-    <meta name="title" content="{{ .Site.Params.title }}" />
-    <meta property="og:title" content="{{ .Site.Params.title }}" />
-    <meta property="twitter:title" content="{{ .Site.Params.title }}" />
+    <meta name="title" content="{{ .Site.Params.SEOTitle }}" />
+    <meta property="og:title" content="{{ .Site.Params.SEOTitle }}" />
+    <meta property="twitter:title" content="{{ .Site.Params.SEOTitle }}" />
     {{ end }}
 
     {{ if .Params.description }}
@@ -47,14 +47,9 @@
     <meta property="twitter:description" content="{{ .Site.Params.description }}" />
     {{ end }}
 
-    {{ if .Params.summary }}
     <meta property="twitter:card" content="summary_large_image" />
-    {{ else }}
-    <meta property="twitter:card" content="summary_large_image" />
-    {{ end }}
-    
-    <meta name="twitter:site" content="@{{ .Site.Params.twitter | default "" }}">
-    <meta name="twitter:creator" content="@{{ .Site.Params.twitter | default "" }}">
+    <meta name="twitter:site" content="@{{ .Site.Params.twitter }}">
+    <meta name="twitter:creator" content="@{{ .Site.Params.twitter }}">
     <!-- end ogp -->
 
     <!-- Schema.org Structured Data -->
@@ -164,4 +159,14 @@
     <script src="{{ . | absURL }}"></script>
     {{ end }}
 
+    <!-- Google Analytics (gtag.js) -->
+    {{ if .Site.Config.Services.GoogleAnalytics.ID }}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Config.Services.GoogleAnalytics.ID }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ .Site.Config.Services.GoogleAnalytics.ID }}');
+    </script>
+    {{ end }}
 </head>

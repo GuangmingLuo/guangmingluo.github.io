@@ -215,7 +215,124 @@ footer .copyright {
     color: #64748b;
 }
 
-/* Responsive */
+/* ========================================
+   Daily News Styles - 每日早报专用样式
+   ======================================== */
+
+/* Section divider for daily news */
+.post-container h2 {
+    padding-bottom: 12px;
+    border-bottom: 2px solid #e2e8f0;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.post-container h2::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background: #0ea5e9;
+}
+
+/* Daily news h3 - news item title */
+.post-container h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1e293b;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    padding-left: 14px;
+    border-left: 3px solid #0ea5e9;
+    line-height: 1.6;
+}
+
+/* Daily news paragraph spacing */
+.post-container p {
+    margin-bottom: 12px;
+    line-height: 1.9;
+}
+
+/* Daily news link indicators */
+.post-container a[href] {
+    text-decoration: none;
+    border-bottom: 1px dotted #0ea5e9;
+}
+
+.post-container a[href]:hover {
+    border-bottom-style: solid;
+}
+
+/* Horizontal rule between sections */
+.post-container hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #e2e8f0, transparent);
+    margin: 40px 0;
+}
+
+/* Daily news blockquote - data source */
+.post-container blockquote {
+    border-left: 4px solid #0ea5e9;
+    background: linear-gradient(135deg, #f0f9ff 0%, #f8fafc 100%);
+    padding: 20px 24px;
+    margin: 30px 0;
+    border-radius: 0 8px 8px 0;
+    color: #475569;
+    font-size: 15px;
+}
+
+.post-container blockquote p {
+    margin-bottom: 6px;
+}
+
+.post-container blockquote strong {
+    color: #1e293b;
+}
+
+/* Daily news source links */
+.post-container p > a[href*="toutiao"],
+.post-container p > a[href*="csdn"],
+.post-container p > a[href*="163"],
+.post-container p > a[href*="eastmoney"],
+.post-container p > a[href*="infoq"],
+.post-container p > a[href*="36kr"] {
+    font-size: 13px;
+    color: #94a3b8;
+    border-bottom: none;
+}
+
+/* Emoji in headings */
+.post-container h2 .emoji,
+.post-container h2 [class*="emoji"] {
+    margin-right: 8px;
+}
+
+/* Daily news list items */
+.post-container ol li,
+.post-container ul li {
+    margin-bottom: 8px;
+    line-height: 1.8;
+}
+
+/* Section emoji headers special style */
+.post-container h2:first-of-type {
+    margin-top: 24px;
+}
+
+/* Daily news date info styling */
+.post-container em {
+    color: #64748b;
+    font-size: 15px;
+}
+
+/* ========================================
+   Responsive
+   ======================================== */
+
 @media (max-width: 768px) {
     .post-title {
         font-size: 22px;
@@ -228,9 +345,46 @@ footer .copyright {
     .intro-header .post-heading h1 {
         font-size: 30px;
     }
+
+    /* Daily news mobile optimizations */
+    .post-container {
+        font-size: 16px;
+    }
+
+    .post-container h2 {
+        font-size: 20px;
+        margin-top: 32px;
+    }
+
+    .post-container h3 {
+        font-size: 17px;
+        padding-left: 10px;
+    }
+
+    .post-container blockquote {
+        padding: 16px 18px;
+        font-size: 14px;
+    }
 }
 
-/* Animations */
+@media (max-width: 480px) {
+    .post-container {
+        font-size: 15px;
+    }
+
+    .post-container h2 {
+        font-size: 18px;
+    }
+
+    .post-container h3 {
+        font-size: 16px;
+    }
+}
+
+/* ========================================
+   Animations
+   ======================================== */
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -251,3 +405,80 @@ footer .copyright {
 .post-preview:nth-child(3) { animation-delay: 0.3s; }
 .post-preview:nth-child(4) { animation-delay: 0.4s; }
 .post-preview:nth-child(5) { animation-delay: 0.5s; }
+
+/* ========================================
+   Scroll behavior & selection
+   ======================================== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: #0ea5e9;
+    color: white;
+}
+
+::-moz-selection {
+    background: #0ea5e9;
+    color: white;
+}
+
+/* Table styles for about/notes pages */
+.post-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.post-container table th,
+.post-container table td {
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.post-container table th {
+    background: #f8fafc;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.post-container table tr:hover {
+    background: #f8fafc;
+}
+
+/* Archive page styles */
+.archive-list h1 {
+    font-size: 24px;
+    color: #0ea5e9;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.archive-list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.archive-list li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #e2e8f0;
+}
+
+.archive-list li span {
+    color: #94a3b8;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.archive-list li a {
+    color: #334155;
+    font-size: 16px;
+}
+
+.archive-list li a:hover {
+    color: #0ea5e9;
+}

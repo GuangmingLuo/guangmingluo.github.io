@@ -1,50 +1,39 @@
 baseurl = "https://guangmingluo.github.io/"
 title = "Guangming Blog"
 theme = "hugo-theme-cleanwhite"
-languageCode = "en-us"
-# Google Analytics
-googleAnalytics = "G-TDZ7Y74PRC"
+languageCode = "zh-cn"
+# Google Analytics (new config format)
+[services.googleAnalytics]
+  id = "G-TDZ7Y74PRC"
 preserveTaxonomyNames = true
 hasCJKLanguage = true
+enableRobotsTXT = true
+enableEmoji = true
 
 [pagination]
 pagerSize = 5
 
 [outputs]
-home = ["HTML", "RSS", "Algolia"]
+home = ["HTML", "RSS"]
 
 [params]
   header_image = "img/bg/home-bg-mars.jpeg"
-  SEOTitle = "罗广明的博客 |  Luoguangming Blog"
+  SEOTitle = "罗广明的博客 | Luoguangming Blog"
   description = "罗广明, 开源爱好者，旅行探险家 | 这里是 罗广明 的博客，与你一起发现更大的世界。"
-  keyword = "罗广明, Guangming, LuoGuangming, 罗广明的网络日志,罗广明的博客, Guangming Blog, 博客, 个人网站, 互联网, Web, 云原生, Istio, RPC, 微服务, Microservice, CloudWeGo"
+  keyword = "罗广明, Guangming, LuoGuangming, 罗广明的网络日志, 罗广明的博客, Guangming Blog, 博客, 个人网站, 互联网, Web, 云原生, Istio, RPC, 微服务, Microservice, CloudWeGo, 每日科技早报"
   slogan = "路在脚下，心向远方"
 
   image_404 = "img/bg/404-bg.jpg"
   title_404 = "你来到了没有知识的荒原 :("
-  omit_categories = false
+  omit_categories = true
 
   # leancloud storage for page view counter
   page_view_conter = false 
   leancloud_app_id = ""
   leancloud_app_key = ""
 
-  # [params.giscus]
-  # data-repo="GuangmingLuo/guangmingluo.github.io"
-  # data-repo-id="MDEwOlJlcG9zaXRvcnkxODAwODI2ODg="
-  # data-category="Announcements"
-  # data-category-id="DIC_kwDOCrvYAM4CafDY"
-  # data-mapping="title"
-  # data-strict="0"
-  # data-reactions-enabled="1"
-  # data-emit-metadata="0"
-  # data-input-position="bottom"
-  # data-theme="preferred_color_scheme"
-  # data-lang="zh-CN"
-  # crossorigin="anonymous"
-
-  # algolia site search
-  algolia_search = true
+  # algolia site search (disabled - no valid credentials)
+  algolia_search = false
   algolia_appId = ""
   algolia_indexName = ""
   algolia_apiKey = ""
@@ -60,7 +49,6 @@ home = ["HTML", "RSS", "Algolia"]
   ba_track_id = ""
 
   # Twikoo comments
-  # Follow https://twikoo.js.org/ to set up your own env_id
   twikoo_env_id = ""
 
   #Enable wechat pay & alipay to allow readers send reward money if they like the articles
@@ -71,6 +59,9 @@ home = ["HTML", "RSS", "Algolia"]
   bookmarks = false
   about_me = true
 
+  # Twitter handle (without @)
+  twitter = "IvanLuo10"
+
   # Include any custom CSS and/or JS files, url or relative to /static folder
   #custom_css = ["css/lightbox.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css", "css/main.css"]
   #custom_js = ["js/lightbox.js", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js", "js/main.js"]
@@ -78,23 +69,10 @@ home = ["HTML", "RSS", "Algolia"]
   [params.social]
   rss            = true 
   email          = "guangmingluo1994@gmail.com"
-  #facebook      = "full profile url in facebook"
-  #googleplus    = "full profile url in googleplus"
   twitter       = "https://twitter.com/IvanLuo10"
   linkedin       = "https://www.linkedin.com/in/guangmingluo1994/"
-  #stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
-  #instagram     = "full profile url in instagram"
   github         = "https://github.com/GuangmingLuo"
   wechat         = "/img/lgm-wechat.jpeg"
-  #medium        = "full profile url in medium"
-  #slack         = "full workspace url in slack"
-  #pinterest     = "full profile url in pinterest"
-  #reddit        = "full profile url in reddit"
-  #gitlab        = "full profile url in gitlab"
-  #mastodon      = "full profile url in mastodon"
-  #keybase       = "full profile url in keybase"
-  #xing          = "https://www.xing.com/profile/yourxingid"
-  #git           = "full profile url for git user"
   
   [[params.friend_link]]
   title = "云原生社区"
@@ -103,32 +81,18 @@ home = ["HTML", "RSS", "Algolia"]
   title = "Jimmy Song"
   href =  "https://jimmysong.io/"
 
-#  [[params.bookmark_link]]
-#  title =  "Martin Fowler"
-#  href =  "https://martinfowler.com"
-#  [[params.bookmark_link]]
-#  title = "ServiceMesher"
-#  href =  "http://www.servicemesher.com"
-  
+  [[params.addtional_menus]]
+  title =  "DAILY"
+  href =  "/daily-news"
   [[params.addtional_menus]]
   title =  "ARCHIVE"
-  href =  "/archive/"
+  href =  "/archive"
   [[params.addtional_menus]]
   title =  "NOTES"
-  href =  "/notes/"
+  href =  "/notes"
   [[params.addtional_menus]]
   title =  "ABOUT"
-  href =  "/about/"
-
-[outputFormats.Algolia]
-baseName = "algolia"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
-
-[params.algolia]
-vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
-params = ["categories", "tags"] 
+  href =  "/about"
 
 [markup]
   [markup.tableOfContents]
