@@ -75,9 +75,6 @@ home = ["HTML", "RSS"]
   wechat         = "/img/lgm-wechat.jpeg"
   
   [[params.friend_link]]
-  title = "云原生社区"
-  href =  "https://cloudnative.to/"
-  [[params.friend_link]]
   title = "Jimmy Song"
   href =  "https://jimmysong.io/"
 
