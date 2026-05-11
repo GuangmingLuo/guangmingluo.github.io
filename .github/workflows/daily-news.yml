@@ -1,44 +1,12 @@
-name: 每日科技早报自动生成
+name: 每日科技早报自动生成（已禁用）
 
 on:
-  schedule:
-    # 每天早上 8 点（UTC 时间 0:00，北京时间 +8）
-    - cron: '0 0 * * *'
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:  # 仅保留手动触发，关闭定时任务
 
 jobs:
   generate-news:
     runs-on: ubuntu-latest
     
     steps:
-      - name: 检出代码
-        uses: actions/checkout@v4
-        
-      - name: 设置 Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          
-      - name: 安装依赖
-        run: |
-          cd scripts
-          pip install -r requirements.txt
-          
-      - name: 运行抓取脚本
-        run: |
-          cd scripts
-          python fetch_daily_news.py --auto  # 我们需要修改脚本支持 --auto 参数
-          
-      - name: 提交并推送
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          
-          # 检查是否有新文件
-          if git status | grep -q "daily-news/.*\.md"; then
-            git add content/daily-news/
-            git commit -m "🤖 自动更新：$(date +'%Y年%m月%d日')科技早报"
-            git push
-          else
-            echo "没有新内容，跳过提交"
-          fi
+      - name: 已禁用
+        run: echo "此工作流已禁用，早报由 Coze Agent 生成"
