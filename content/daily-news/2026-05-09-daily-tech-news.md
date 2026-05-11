@@ -20,12 +20,6 @@ Kubernetes v1.36于4月22日正式发布，代号取自日语Haru——意为春
 
 🔗 [Kubernetes Blog](https://kubernetes.io/blog/) | [CSDN](https://blog.csdn.net/zpf17671624050/article/details/160442808)
 
-### CNCF警告：Kubernetes无法保障LLM安全，需增加AI专属安全层
-
-CNCF发布博客明确指出，Kubernetes擅长编排和隔离工作负载，但无法理解或控制AI系统的行为。建议采用基础设施安全层+AI特定控制层的双层架构，推荐Higress、KServe + OPA Gatekeeper、Kubescape 4.0等CNCF生态工具。
-
-🔗 [头条](http://m.toutiao.com/group/7637008636899852852/)
-
 ---
 
 ## 🚀 云原生动态
@@ -58,12 +52,6 @@ Kubernetes Agent Sandbox子项目发布博客文章Running Agents on Kubernetes 
 
 ## 🤖 AI前沿
 
-### OpenAI GPT-5.5 Instant升级，幻觉率降低52.5%
-
-OpenAI将ChatGPT默认模型升级为GPT-5.5 Instant，幻觉声明较前代减少52.5%，在医疗、法律、金融等高风控场景可信度显著提升。同期Codex API速率限制提升10倍。
-
-🔗 [掘金](https://juejin.cn/post/7635965174851911731)
-
 ### OpenAI自研芯片Nexus项目遇阻，180亿美元融资陷入僵局
 
 OpenAI与博通联合定制AI芯片的Nexus项目首期1.3吉瓦规模算力部署遇到融资障碍。博通要求微软承诺采购约40%首期芯片产能才愿提供180亿美元融资，但微软尚未同意。首款自研芯片Jalapeno推迟至2027年落地。
@@ -76,35 +64,11 @@ xAI发布Grok 4.3 Beta版，API定价大幅下调——输入1.25美元、输出
 
 🔗 [CSDN](https://deepseek.csdn.net/69fc2f7154b52172bc723023.html)
 
-### Anthropic联合高盛、黑石设立15亿美元AI企业服务合资公司
-
-Anthropic携手高盛、黑石成立15亿美元合资企业，将派驻工程师到企业内部。同日OpenAI也宣布成立100亿美元部署公司，两家AI巨头对标Palantir模式进军咨询行业。
-
-🔗 [掘金](https://juejin.cn/post/7635965174851911731)
-
 ### 国产AI芯片龙头昆仑芯启动科创板IPO辅导
 
 5月7日，百度旗下昆仑芯启动科创板上市辅导，中金公司担任辅导机构。昆仑芯已完成6轮融资，高盛预计2026年销售额有望达65亿元。
 
 🔗 [中国证券报](http://m.toutiao.com/group/7637390167134306868/) | [央视财经](http://m.toutiao.com/group/7637534446819787306/)
-
-### Cerebras IPO加码至40亿美元
-
-AI芯片制造商Cerebras IPO募资规模计划达40亿美元，目标估值约400亿美元，投行已收到超100亿美元认购意向。
-
-🔗 [天天基金网](http://fund.eastmoney.com/a/202605023727570847.html)
-
-### AMD Q1营收同比增长38%，上调服务器CPU增长预期
-
-AMD发布2026年Q1财报，营收102.53亿美元同比增长38%。CEO苏姿丰将服务器CPU市场年增长预期从18%上调至超35%。
-
-🔗 [东方财富网](https://finance.eastmoney.com/a/202605063728454881.html)
-
-### 国内大模型周调用量连续两周超越美国
-
-4月27日至5月3日，国内AI大模型周调用量达7.942万亿Token，环比激增81.7%。调用量前五中四款来自中国厂商。
-
-🔗 [CSDN](https://deepseek.csdn.net/69fc2f7154b52172bc723023.html)
 
 ### 月之暗面Kimi完成约20亿美元融资，阶跃星辰冲刺港股IPO
 
@@ -114,16 +78,6 @@ AMD发布2026年Q1财报，营收102.53亿美元同比增长38%。CEO苏姿丰�
 
 ---
 ## 🔓 开源社区
-
-### GitHub Skills生态爆发
-
-本周GitHub热榜最亮眼项目：mattpocock/skills和arendrej-karpathy-skills，为Claude Code/Cursor等AI编程工具准备的标准化教学包。
-
-[头条](http://m.toutiao.com/group/7637048506468925988/)
-
-### Edge Inference
-
-Apple, Microsoft, Qualcomm all betting on edge LLM inference.
 
 ### MCP协议
 
@@ -152,12 +106,6 @@ Meta为Llama系列制定独立许可，Hugging Face推广OpenRAIL协议。
 AI编程四大代价：系统复杂度上升、开发者技能萎缩、供应商锁定、成本波动。行业开始理性反思。
 
 [头条](http://m.toutiao.com/group/7635842187246223922/)
-
-### AWS CEO：程序员不会消失，但条件在变
-
-亚马逊云2026年继续扩招1.1万名软件工程实习生，但后端开发岗位薪资回调。
-
-[头条](http://m.toutiao.com/group/7637048506468925988/)
 
 ### Anthropic估值或突破9000亿美元
 

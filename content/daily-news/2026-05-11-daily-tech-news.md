@@ -8,18 +8,6 @@ description: "2026年5月11日 科技新闻摘要，涵盖人工智能、云计�
 
 ## 📰 头条新闻
 
-### Kubernetes v1.36 正式发布：春归万物生，稳中见功夫
-
-2026年4月22日，Kubernetes v1.36 正式发布，代号「Haru」（日语"春"之意）。本次发布带来 **71 项增强**，其中 **18 项毕业至 Stable (GA)**，26 项进入 Beta。
-
-**三大 GA 亮点：**
-
-- **Pod User Namespaces GA**：埋了四年的种子终于发芽，容器内 root 在宿主机仅为无特权用户，多租户隔离能力质的飞跃
-- **Mutating Admission Policies GA**：告别 Webhook Server，变更逻辑可直接声明为 K8s 资源，纳入 GitOps 管理
-- **OCI VolumeSource GA**：把任意 OCI 镜像当作卷来引用，AI 模型权重等大文件分发新范式
-
-📖 来源：[CSDN - Kubernetes v1.36 正式发布](https://blog.csdn.net/zpf17671624050/article/details/160442808)
-
 ---
 
 ## 🚀 云原生动态
@@ -42,18 +30,6 @@ CNCF 2025-2026 报告显示：**90%+** 微服务项目采用 K8s + Docker，Graa
 阿里、字节、腾讯、美团、京东均已将 K8s 集群 + GraalVM 生产部署列为标配。
 
 📖 来源：[CSDN - SpringCloud生产部署:Docker + Kubernetes + GraalVM](https://blog.csdn.net/qq_33229153/article/details/157436212)
-
-### Ingress NGINX 正式退役，Gateway API 时代已来
-
-2026年3月24日，Kubernetes 正式宣布 Ingress NGINX 退役。迁移路径：
-
-| 方案 | 成熟度 | 迁移成本 | 推荐场景 |
-|------|--------|----------|----------|
-| Gateway API + Contour | 高 | 中 | 生产环境首选 |
-| Gateway API + Envoy Gateway | 中 | 中 | 新项目推荐 |
-| Traefik | 高 | 低 | 中小规模集群 |
-
-📖 来源：[CSDN - Kubernetes v1.36 架构新特性详解](https://blog.csdn.net/qinchao_mei/article/details/160107171)
 
 ---
 
