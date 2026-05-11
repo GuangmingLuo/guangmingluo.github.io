@@ -14,27 +14,9 @@ description: "2026年5月12日 科技新闻摘要，涵盖人工智能、云计�
 
 📖 来源：[今日头条 - AI界重磅消息](http://m.toutiao.com/group/7638672929730986522/)
 
-**中国大模型周调用量7.942万亿Token，再次超越美国**
-
-根据OpenRouter数据，4月27日至5月3日一周，中国大模型调用量达到7.942万亿Token，环比暴涨81.7%，全球占比超过33%，再次超越美国。背后是工业AI、办公AI、民生应用的全面爆发，AI正深度扎根中国实体经济。
-
-📖 来源：[今日头条 - 大模型周调用量](http://m.toutiao.com/group/7638768858324681270/)
-
 ---
 
 ## 🚀 云原生动态
-
-**Kubernetes v1.36发布：DRA全面进化**
-
-5月7日，CNCF正式发布Kubernetes v1.36，代号"Haru"。本次更新聚焦Dynamic Resource Allocation（DRA）能力扩展：
-
-- **Prioritized List（稳定版）**：支持按优先级定义硬件设备回退选项（如优先H100，回退到A100）
-- **Partitionable Devices（Beta）**：原生支持GPU多实例划分，满足单个Pod无需整块GPU的场景
-- **Device Taints（Beta）**：可对特定DRA设备添加污点，实现硬件预留和故障隔离
-- **Resource Health Status（Beta）**：Pod状态中直接暴露设备健康信息，便于快速诊断
-- **CPU/内存DRA支持（Alpha）**：将DRA扩展到节点本地资源管理
-
-📖 来源：[Kubernetes官方博客](https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/)
 
 **Kyverno 1.18发布：毕业后的首个版本**
 
@@ -46,12 +28,6 @@ description: "2026年5月12日 科技新闻摘要，涵盖人工智能、云计�
 
 📖 来源：[CNCF博客](https://www.cncf.io/blog/2026/05/05/announcing-kyverno-release-1-18/)
 
-**CNCF警告：仅靠Kubernetes不足以保护LLM工作负载**
-
-CNCF发布博客指出，Kubernetes擅长编排和隔离工作负载，但它本身无法理解或控制AI系统的行为。LLM处理不受信任的输入、动态决定行动方式的特性，引入了一类新的风险，包括提示词注入、意外数据暴露和对已连接工具的滥用。组织需要引入AI感知型平台工程，将安全同时嵌入基础设施层和应用层。
-
-📖 来源：[InfoQ - CNCF警告Kubernetes安全](http://m.toutiao.com/group/7637003901065036339/)
-
 ---
 
 ## 🤖 AI前沿
@@ -61,18 +37,6 @@ CNCF发布博客指出，Kubernetes擅长编排和隔离工作负载，但它本
 据报道，字节跳动将2026年AI基础设施支出从年初计划上调25%，增至2000亿元人民币（约合300亿美元），重点投向服务器采购、智算中心建设与光模块配套。这使字节成为国内AI基建投入最大的互联网公司之一。
 
 📖 来源：[今日头条 - A股科技动态](http://m.toutiao.com/group/7638780249207112242/)
-
-**OpenAI发布GPT-5.5 Trusted版本**
-
-OpenAI推出GPT-5.5 Trusted版本，将高危场景下的幻觉率降至0.3%，医疗、金融等行业终于可以放心使用AI。同时发布三款实时语音模型，支持128K上下文、70种语言同声传译。
-
-📖 来源：[今日头条 - AI界重磅消息](http://m.toutiao.com/group/7638672929730986522/)
-
-**DeepSeek完成500亿元融资，V4.1定档6月**
-
-DeepSeek启动大规模融资，创世人梁文锋个人出资200亿元。V4.1定档6月发布，将支持MCP协议、图像+音频多模态，标志着DeepSeek从"不融资"理想主义转向重资产AI公司。
-
-📖 来源：[微博 - AI日报](https://m.weibo.cn/detail/5297653672837564)
 
 **Manus全面开放注册**
 
@@ -110,12 +74,6 @@ DeepSeek启动大规模融资，创世人梁文锋个人出资200亿元。V4.1�
 ---
 
 ## 💡 行业观察
-
-**Anthropic营收暴涨80倍，Agent时代全面到来**
-
-Anthropic在旧金山开发者大会上披露ARR实现80倍指数级增长，单活跃用户月均收入16.20美元，远超OpenAI的2.20美元。同时宣布与SpaceX达成算力合作，获得Colossus 1数据中心超300兆瓦算力。内部工程师几乎不再手写代码，标志着AI Agent已进入企业核心流程。
-
-📖 来源：[中年老韩 - Anthropic营收](http://m.toutiao.com/group/7637328186212991539/)
 
 **清华突破长文本技术，千亿模型对话准确率达99.3%**
 
