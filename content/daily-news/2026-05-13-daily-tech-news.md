@@ -22,31 +22,6 @@ description: "2026年5月13日 科技新闻摘要，涵盖人工智能、云计�
 
 ## 🚀 云原生动态
 
-### Kubernetes v1.36 正式发布：Volume Group Snapshots GA，DRA 迎来重大升级
-
-Kubernetes v1.36 于 2026 年 4 月 22 日正式发布，带来多项重要更新：
-
-**核心特性升级：**
-- Volume Group Snapshots 升级为 GA
-- Declarative Validation 升级为 GA
-- Pod-Level Resource Managers 进入 Alpha
-- In-Place Pod-Level Resources Vertical Scaling 进入 Beta
-- Tiered Memory Protection with Memory QoS 引入分层内存保护
-
-**DRA 重大更新：**
-- Prioritized List 升级为 Stable
-- Extended Resource Support 进入 Beta
-- Partitionable Devices 进入 Beta
-- Device Taints 进入 Beta
-- Device Binding Conditions 进入 Beta
-- Resource Health Status 进入 Beta
-
-**废弃与移除：**
-- gitRepo Volume Plugin 永久禁用（安全漏洞）
-- IPVS Mode in kube-proxy 已移除
-
-> 原文链接：[Kubernetes Blog](http://blog.kubernetes.io)
-
 ### 云原生智能体标准化：CNCF 发布《Cloud Native Agentic Standards》
 
 CNCF 发布《Cloud Native Agentic Standards》白皮书，为云原生智能体提供标准化框架：
@@ -73,32 +48,6 @@ CNCF 发布《Cloud Native Agentic Standards》白皮书，为云原生智能体
 
 ## 🤖 AI前沿
 
-### DeepSeek 拟融资 500 亿元，估值突破 3500 亿
-
-据 The Information 报道，DeepSeek 正在寻求其首轮融资，计划募集最多 500 亿元人民币（约 73.5 亿美元）。若交易达成，将创下中国 AI 企业史上最大单笔融资纪录，整体估值有望突破 3500 亿元（约 515 亿美元）。
-
-- **投资方**：国家集成电路产业投资基金、腾讯、阿里等巨头均被传出投资意向
-- **V4.1 计划**：预计 6 月发布，新增图像、音频理解处理能力，强化 MCP 适配
-
-> 原文链接：[DeepSeek拟融资500亿，国产AI掀凶猛融资潮](http://m.toutiao.com/group/7637526239380800027/)
-
-### 月之暗面 Kimi 完成 20 亿美元融资，ARR 超 2 亿美元
-
-月之暗面完成约 20 亿美元融资，投后估值突破 200 亿美元。本轮由美团龙珠领投，中国移动、CPE 源峰等参投。
-
-- 公司半年内累计融资超 39 亿美元
-- ARR 在 4 月已超 2 亿美元
-- 付费订阅与 API 收入加速增长
-
-> 原文链接：[国资与产业资本齐入场 AI领域频现大额融资](https://m.sohu.com/a/1020823883_120988533/)
-
-### 阶跃星辰将完成近 25 亿美元融资，加速冲刺港股 IPO
-
-阶跃星辰被曝将完成近 25 亿美元融资，本轮吸引了华勤技术、龙旗科技、豪威集团、中兴通讯等手机产业链企业，以及香港投资管理有限公司（HKIC）。
-
-- 年内连续完成两轮大额融资（1月超50亿元B+轮、5月近25亿美元）
-- 或将成为继智谱、MiniMax 之后第三家登陆港股的国产大模型企业
-
 ### 无问芯穹获 7 亿元融资，日均 Token 调用量增长超 20 倍
 
 AI 原生基础设施公司无问芯穹宣布再获超 7 亿元融资，持续稳居中国 AI 原生基础设施公司融资规模之首。
@@ -118,10 +67,6 @@ AI 原生基础设施公司无问芯穹宣布再获超 7 亿元融资，持续�
 - **Qwen3.6-Plus**：旗舰语言模型，日调用量突破 1.4 万亿 Token
 
 > 原文链接：[2026年4月AI圈动态盘点](https://blog.csdn.net/weixin_41908519/article/details/159963116)
-
-### 谷歌 Gemma 4 开源模型发布，Apache 2.0 许可证
-
-谷歌 DeepMind 发布 Gemma 4 系列开源模型，包含 E2B、E4B、26B MoE 和 31B Dense 四款型号，全部采用 Apache 2.0 开源协议。
 
 ### Anthropic Claude Mythos Preview 发布，年化收入超 300 亿美元
 
