@@ -66,7 +66,7 @@ description: "2026年5月18日 科技新闻摘要，涵盖人工智能、云计�
 
 **本周AI大事件：OpenAI重组、GitHub Skills生态爆发、Claude Mythos曝光**
 
-本周（5月11日-17日）AI圈重磅事件频发：OpenAI宣布合并ChatGPT、Codex、API三大产品线剑指Agent，周活用户已达9亿；GitHub Trending上Skills相关项目几乎霸榜，mattpocock/skills、anthropics/financial-services、NousResearch/hermes-agent等项目本周新增Star均超1000；Anthropic Claude Mythos性能提前曝光——在41个真实浏览器高危漏洞破解任务中远超GPT-5.5，甚至破解了人类安全研究员耗时1年未解决的CVE漏洞，但使用成本约为GPT-5.5的12倍。
+本周（5月11日-17日）AI圈重磅事件频发：OpenAI宣布合并ChatGPT、Codex、API三大产品线剑指Agent，周活用户已达9亿；GitHub Trending上Skills相关项目几乎霸榜，mattpocock/skills、anthropics/financial-services、NousResearch/hermes-agent等项目本周新增Star均超1000。（注：Anthropic Claude Mythos发现零日漏洞动态已在5月17日早报详细报道）
 
 📖 来源：[CSDN](https://blog.csdn.net/qimingxinwanwan/article/details/161172473)
 
@@ -86,7 +86,7 @@ description: "2026年5月18日 科技新闻摘要，涵盖人工智能、云计�
 
 **阿里腾讯财报季：AI商业化加速、资本开支持续攀升**
 
-5月13日阿里发布FY2026四季度财报：阿里云收入同比增长38%至416.26亿元，外部客户收入增速加速至40%，AI相关产品收入占外部商业化收入比例首次突破30%。CEO吴泳铭表示未来三年资本支出或超3800亿元。同日腾讯发布Q1财报：资本开支319.36亿元，同比增长16%，管理层表示随着国产芯片供应释放，下半年算力供应将明显改善，资本开支会明显提升。
+5月13日腾讯发布Q1财报：资本开支319.36亿元，同比增长16%，管理层表示随着国产芯片供应释放，下半年算力供应将明显改善，资本开支会明显提升。同日阿里发布FY2026四季度财报，核心数据已在5月17日早报详细报道（阿里云份额32.8%、AI收入占外部收入30%、投入远超3800亿），此处不再重复。
 
 📖 来源：[科技逍遥行](http://m.toutiao.com/group/7640870936631149096/)
 
