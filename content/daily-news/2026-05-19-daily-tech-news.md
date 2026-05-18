@@ -42,11 +42,6 @@ description: "2026年5月19日 科技新闻摘要，涵盖人工智能、云计�
 
 📖 来源：[搜狐](https://m.sohu.com/a/1024434906_122413768/)
 
-**Kurator：站在巨人肩膀上的分布式云原生创新实践**
-
-Kurator作为开源分布式云原生平台，深度集成Kubernetes、Karmada、Istio、KubeEdge、Volcano、Prometheus等优秀开源项目，为多云、混合云和边缘计算场景提供统一编排和治理方案。平台实现了Fleet管理、统一可观测性、云边端协同等创新理念，支持AI/ML工作负载原生调度。CNCF技术雷达显示其已处于"采用"阶段。
-
-📖 来源：[51CTO](https://blog.51cto.com/u_16755117/14604632)
 
 ---
 
@@ -74,7 +69,7 @@ Kurator作为开源分布式云原生平台，深度集成Kubernetes、Karmada�
 
 2001年诺贝尔经济学奖得主、斯坦福大学教授迈克尔·斯宾塞在2026清华五道口全球金融论坛上表示，二战后支撑全球经济的稳定因素正逐渐消退，地缘政治紧张形势持续升级，世界已进入"单点故障即可影响全局"的状态。他指出AI作为风险对冲变量具有潜力，但仍存在不确定性。
 
-📖 来源：[Coze](https://www.coze.cn/share-article/201779142161192768)
+📖 来源：[清华大学五道口金融学院](https://www.pbcsf.tsinghua.edu.cn/)
 
 ---
 
@@ -86,11 +81,7 @@ Kurator作为开源分布式云原生平台，深度集成Kubernetes、Karmada�
 
 📖 来源：[GitHub Trending](https://github-trending.today/)
 
-**摩尔线程发布家庭AI中枢MTT AICUBE及智能体"小麦"**
-
-摩尔线程在年度产品发布会上推出家庭AI中枢MTT AICUBE，融合小麦智能体、AI PC、AI NAS一体化，搭载自研"长江"智能SoC芯片，拥有50 TOPS本地AI算力、32GB内存，支持INT8/FP16/FP32。这标志着国产GPU厂商从"追着生态跑"转向"家庭场景共建"，拓展消费级AI市场。
-
-📖 来源：[Coze](https://www.coze.cn/share-article/201779105409127552)
+（注：摩尔线程相关动态已在5月17日早报详细报道MUSA合入SGLang，今日不再重复收录）
 
 ---
 
@@ -118,7 +109,7 @@ Kurator作为开源分布式云原生平台，深度集成Kubernetes、Karmada�
 
 苹果公司已向媒体发出WWDC 2026邀请函，口号为"Coming bright up"，大会周详细日程已公布。WWDC 2026将于太平洋时间6月8日上午10点以Apple Keynote主题演讲正式启动，届时将集中发布iOS 27等年度主要系统和平台更新。
 
-📖 来源：[Coze](https://www.coze.cn/share-article/201779137132858304)
+📖 来源：[Apple Developer](https://developer.apple.com/wwdc26/)
 
 ---
 
