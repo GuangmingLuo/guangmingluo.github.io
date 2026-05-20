@@ -20,29 +20,11 @@ description: "2026年5月21日 科技新闻摘要，涵盖人工智能、云计�
 
 📖 来源：[英伟达官方](https://www.globenewswire.com/news-release/2026/05/20/3298888/0/en/nvidia-announces-financial-results-for-first-quarter-fiscal-2027.html) | [搜狐](https://m.sohu.com/a/1025384760_115060/) | [AP News](https://apnews.com/article/nvidia-ai-earnings-revenue-955c699a0c91c423edc81b7903b80f85)
 
-**Kubernetes v1.36发布：安全默认配置强化，AI工作负载支持日趋成熟**
-
-Kubernetes发布1.36版本（代号Haru），包含70项增强功能，106家公司和491位个人参与贡献。该版本重点聚焦安全加固、AI工作负载支持和大模型可扩展性。
-
-安全方面：用户命名空间（User Namespaces）正式GA，可将容器内root映射为主机非特权用户；可变准入策略（Mutating Admission Policies）GA，允许用CEL定义原生变更逻辑替代Webhook；细粒度Kubelet API授权正式GA。
-
-AI工作负载方面：DRA可分区设备、可消耗容量及设备污点容忍等增强功能进入测试阶段并默认开启，替代传统整数GPU插件模型；工作负载感知抢占（Workload-Aware Preemption）新增Alpha功能，解决分布式训练"部分抢占"痛点；Gang调度API进入Beta阶段。
-
-同时，gitRepo卷插件被彻底移除（存在安全漏洞），IPVS模式、FlexVolume支持等也被移除。
-
-📖 来源：[InfoQ](http://m.toutiao.com/group/7641921499506541071/) | [Kubernetes官方博客](https://kubernetes.io/zh/blog/)
 
 ---
 
 ## 🚀 云原生动态
 
-**OpenCost：Kubernetes成本监控的开源FinOps解决方案**
-
-OpenCost作为CNCF Sandbox项目，专注于Kubernetes集群的实时成本监控与分析。该工具可按Namespace、Pod、Deployment、Label等维度精准分摊云资源费用，帮助平台团队实现FinOps（财务运营）。
-
-核心功能包括：与Prometheus深度集成、提供Grafana仪表盘和REST API、支持自定义定价配置。与商业版Kubecost相比，OpenCost采用Apache 2.0开源协议，原生支持Grafana集成，更适合自托管和开源场景。
-
-📖 来源：[CSDN](https://blog.csdn.net/jjiejingtazhu/article/details/161246873)
 
 ---
 
@@ -58,7 +40,7 @@ OpenCost作为CNCF Sandbox项目，专注于Kubernetes集群的实时成本监�
 
 实战案例：Qwen3.7-Max在从未接触的真武M890芯片上，仅凭任务说明自主工作35小时，完成了生产级AI计算内核的编写与调优，最终性能较官方参考实现提升10倍。
 
-商业数据：AI模型及应用服务ARR突破80亿元，预计年底超300亿元；日均Token收入5个月增长15倍。
+（注：阿里云财报数据、3800亿资本开支等已在5月17/19日早报详细报道）
 
 📖 来源：[观察者网](http://m.toutiao.com/group/7641909791983534618/) | [今日头条](http://m.toutiao.com/group/7641985158203064870/)
 
