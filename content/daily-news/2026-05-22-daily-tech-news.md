@@ -17,7 +17,7 @@ SpaceX于5月20日正式递交IPO文件，拟登陆纳斯达克。招股书显�
 📖 来源：[新浪财经](http://m.toutiao.com/group/7642465829971329579/) | [华尔街见闻](http://m.toutiao.com/group/7642150283602870811/) | [Coze](https://www.coze.cn/share-article/201779291651246848)
 
 
-**Anthropic斥150亿美元/年租用SpaceX数据中心，算力军备竞赛白热化**
+**更新｜Anthropic斥150亿美元/年租用SpaceX数据中心，算力军备竞赛白热化**
 
 SpaceX IPO文件披露，Anthropic以每月12.5亿美元租用Colossus算力中心，合同至2029年5月。这意味着Anthropic每年在SpaceX算力上的支出高达150亿美元。
 
@@ -40,16 +40,6 @@ Anthropic本季度营收接近110亿美元，预计单季净利润5.6亿美元�
 
 ## 🚀 云原生动态
 
-**Kubernetes v1.36正式发布：71项增强，18项GA**
-
-Kubernetes v1.36于4月22日正式发布，代号"HARU"（日语"春"）。本版本包含71项增强，18项进入Stable阶段，26项进入Beta阶段，重点聚焦安全加固和AI工作负载支持。
-
-核心GA特性包括：Pod User Namespaces正式GA（埋了四年的安全隔离能力）、Mutating Admission Policies告别Webhook Server（用CEL表达式实现原生变更逻辑）、OCI VolumeSource GA（把任意OCI镜像当作卷引用）。Beta阶段包括DRA可分区设备（允许GPU切分共享）、Workload-Aware Preemption（PodGroup整体抢占，解决分布式训练"部分抢占"痛点）、Pod级资源原地垂直扩缩容等。
-
-本版本还宣布Ingress NGINX正式退役，DRA增强功能默认开启，多项特性适配AI/ML工作负载需求。
-
-📖 来源：[InfoQ](http://m.toutiao.com/group/7641921499506541071/) | [CSDN博客](https://blog.csdn.net/zpf17671624050/article/details/160442808)
-
 
 **GitHub Copilot被微软内部示警"生存级风险"**
 
@@ -62,12 +52,6 @@ Kubernetes v1.36于4月22日正式发布，代号"HARU"（日语"春"）。本�
 ---
 
 ## 🤖 AI前沿
-
-**Cerebras发布万亿参数模型推理：速度比GPU云快7倍**
-
-晶圆级芯片公司Cerebras实现重大突破：运行Kimi K2.6万亿参数模型达到981 tokens/秒，较GPU云快6.7倍。这意味着超大规模模型的实时推理首次在成本上可行。
-
-📖 来源：[今日头条](http://m.toutiao.com/group/7642476782428209683/)
 
 
 **Cohere发布Command A+开源大模型：2180亿参数，首创W4A4无损量化**
@@ -83,26 +67,6 @@ Cohere发布Command A+开源大模型：2180亿参数稀疏MoE架构，首创W4A
 
 📖 来源：[今日头条](http://m.toutiao.com/group/7642476782428209683/)
 
-
-**特朗普推迟签署AI行政令：担心阻碍AI创造就业**
-
-Politico报道特朗普在最后时刻推迟AI行政令签署，担心监管会阻碍美国在AI领域领先中国。
-
-📖 来源：[今日头条](http://m.toutiao.com/group/7642476782428209683/)
-
-
-**Aleksander Madry离开OpenAI：将专注AI对经济的影响**
-
-曾是OpenAI顶级安全高管的Madry宣布离职，表示将投身AI经济影响相关的新项目。
-
-📖 来源：[今日头条](http://m.toutiao.com/group/7642476782428209683/)
-
-
-**英伟达调整财报分类：游戏业务并入边缘计算**
-
-英伟达在2027财年Q1财报中调整业务收入分类，将原本独立统计的游戏业务并入"边缘计算"大类。边缘计算板块涵盖AI PC、GeForce RTX系列显卡、游戏主机、工作站、AI-RAN基站、机器人及汽车相关业务，该分类本季度总收入64亿美元。
-
-📖 来源：[Coze](https://www.coze.cn/share-article/201779369104593888)
 
 ---
 
@@ -128,14 +92,6 @@ Skills生态持续火爆，mattpocock/skills、anthropics/financial-services、a
 
 📖 来源：[Coze](https://www.coze.cn/share-article/201779383797370464)
 
-
-**千寻智能牵手地瓜机器人：开源具身模型深度适配**
-
-千寻智能与地瓜机器人达成战略合作，核心动作是完成千寻智能开源具身模型Spirit v1.5与地瓜机器人旭日S600具身大算力平台的深度适配，目标打造高性能、可量产的软硬一体化解决方案。
-
-作为国内首个在综合性能上超越国际标杆Pi0.5的开源VLA基础模型，Spirit v1.5的落地标志着国产具身智能从实验室走向商业化迈出关键一步。
-
-📖 来源：[Coze](https://www.coze.cn/share-article/201779250510844960)
 
 ---
 
@@ -164,13 +120,6 @@ GoPro的衰落与影石（Insta360）、大疆的崛起形成鲜明对比。全�
 海得拉巴已成为微软印度研发体系的核心之一，Azure云服务在印度吃紧，Copilot 365企业订阅加速渗透，Infosys、Cognizant、塔塔咨询各持有约5万个Copilot许可证。
 
 📖 来源：[今日头条](http://m.toutiao.com/group/7642417661145645583/)
-
-
-**网易Q1财报：净利润107亿元，环比增长71%**
-
-网易发布2026年Q1财报：净收入305.9亿元，超市场预估295.1亿元，同比增长6.1%；归母净利润107亿元，环比增长71.2%；游戏业务带动毛利攀升。
-
-📖 来源：[Coze](https://www.coze.cn/share-article/201779353638635584)
 
 
 **三星员工月薪涨25%达5万+：却面临大罢工**
