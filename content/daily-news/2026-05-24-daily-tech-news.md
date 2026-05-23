@@ -8,7 +8,7 @@ description: "2026年5月24日 科技新闻摘要，涵盖人工智能、云计�
 
 ## 📰 头条新闻
 
-**谷歌豪掷400亿美元锁定Anthropic，AI两强格局正式形成**
+**更新｜谷歌豪掷400亿美元锁定Anthropic，AI两强格局正式形成**
 
 谷歌承诺向Anthropic投资最高400亿美元，先投入100亿，未来再追加300亿，同时提供5GW算力支持。此前Anthropic与亚马逊已有深度合作，如今谷歌加入，意味着OpenAI+微软、Anthropic+亚马逊+谷歌的"两强对抗"格局正式形成。AI竞赛进入资本与算力的决战阶段。
 
@@ -30,21 +30,9 @@ description: "2026年5月24日 科技新闻摘要，涵盖人工智能、云计�
 
 📖 来源：[新浪财经](http://m.toutiao.com/group/7643130823260029481/) | [腾讯财经](http://m.toutiao.com/group/7643193118389338624/)
 
-**英伟达Vera CPU首批交付，Computex前x86对比数据曝光**
-
-英伟达向合作伙伴Anthropic、OpenAI、SpaceX和Oracle等交付首批Vera CPU。据泄露的GF Securities报告显示，英伟达将在6月1日Computex Keynote展示Vera相比x86芯片的1.5倍速度、2倍性能和4倍密度提升，但主要针对AI推理负载优化，而非通用计算。英伟达CFO预计Grace和Vera产品线今年将贡献约200亿美元收入。
-
-📖 来源：[Hot Hardware](https://hothardware.com/news/nvidia-vera-rumored-crush-intel-amd-at-computex-26) | [TweakTown](https://www.tweaktown.com/news/cpu_apu_and_chetsets/index.html)
-
 ---
 
 ## 🚀 云原生动态
-
-**华为发布源网荷储AIDC战略与AI DC全栈方案**
-
-华为在2026全球AIDC产业论坛发布源网荷储AIDC战略，围绕Watt（供电）、Heat（散热）、Bit（智能运维）及建设模式"3+1"重构。同日发布AI DC数据基础设施全栈方案：OceanStor Pacific全闪分布式存储以11PB/2U业界领先高容量密度；推出业界首个支持异构算力的上下文记忆存储CMS，可扩展为PB级共享KV Cache池，降低推理首Token时延90%。
-
-📖 来源：[36氪](http://m.toutiao.com/group/7643011672117969418/) | [钛媒体](http://m.toutiao.com/group/7643011672117969418/)
 
 **新华三发布800G CPO硅光交换机与AI原生存储**
 
@@ -58,21 +46,9 @@ description: "2026年5月24日 科技新闻摘要，涵盖人工智能、云计�
 
 📖 来源：[ITPUB博客](http://m.blog.itpub.net/69965512/viewspace-3171971/)
 
-**腾讯云Hy3 preview与DeepSeek-V4-Pro即将结束公测**
-
-腾讯云宣布，智能体开发平台中提供的Hy3 preview、DeepSeek-V4-Pro模型，将于5月27日10:00起结束限时免费公测，转为正式商用服务，按模型调用按量计费。
-
-📖 来源：[钛媒体](http://m.toutiao.com/group/7643011672117969418/)
-
 ---
 
 ## 🤖 AI前沿
-
-**阿里发布Qwen3.7-Max与平头哥真武M890芯片**
-
-阿里云峰会正式发布两大核心AI产品：千问旗舰大模型Qwen3.7-Max与平头哥自研AI芯片真武M890。真武M890定位训推一体AI芯片，算力较上一代提升约3倍，搭载144GB HBM3显存，支持FP8低精度算力。搭载128张真武M890的磐久超节点服务器已落地，用于支撑超大模型训练与推理。
-
-📖 来源：[今日头条](http://m.toutiao.com/group/7643141361357406763/) | [AIbase](https://www.aibase.com/search/Domestic%20Large%20Model)
 
 **智谱AI发布GLM-5.1高速版API：400 tokens/s创全球纪录**
 
@@ -91,12 +67,6 @@ description: "2026年5月24日 科技新闻摘要，涵盖人工智能、云计�
 谷歌发布Gemini Omni世界模型，可以对话式生成视频，支持文本、图像、视频、音频任意组合输入输出。定价$20/月AI Pro套餐含1000积分，每次生成花费15-40积分。据报道，Gemini月活跃用户已达9亿，日请求量增长7倍。
 
 📖 来源：[The Verge](http://m.toutiao.com/group/7643227152665575978/) | [VentureBeat](http://m.toutiao.com/group/7643227152665575978/)
-
-**ChatGPT新增AI填表功能**
-
-OpenAI宣布ChatGPT新增AI填表功能，用户上传表单后，通过语音或文字告知所需填写的信息，ChatGPT即可自动识别表单字段并完成内容补全。
-
-📖 来源：[Coze](https://www.coze.cn/share-article/201779518677885376)
 
 **DeepSeek-V4-Pro API永久降价至原价1/4**
 
@@ -144,12 +114,6 @@ GitHub宣布Copilot Coding Agent正式进入公测阶段，用户可将GitHub Is
 **工信部开展新能源汽车安全隐患排查**
 
 工信部于5月21日下发通知，要求企业针对动力电池系统、整车质量等进行全面排查，8月1日前完成。
-
-📖 来源：[微博](https://m.weibo.cn/detail/5301997916128916)
-
-**荣耀600系列定档5月25日发布**
-
-荣耀600系列主打4K实况拍摄，搭载2亿像素大底主摄、50MP潜望长焦、8000mAh青海湖电池，Pro版或配天玑8550 Elite芯片。
 
 📖 来源：[微博](https://m.weibo.cn/detail/5301997916128916)
 
