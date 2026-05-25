@@ -16,7 +16,6 @@ SpaceX于5月20日正式递交IPO文件，拟登陆纳斯达克。招股书显�
 
 📖 来源：[新浪财经](http://m.toutiao.com/group/7642465829971329579/) | [华尔街见闻](http://m.toutiao.com/group/7642150283602870811/) | [Coze](https://www.coze.cn/share-article/201779291651246848)
 
-
 **更新｜Anthropic斥150亿美元/年租用SpaceX数据中心，算力军备竞赛白热化**
 
 SpaceX IPO文件披露，Anthropic以每月12.5亿美元租用Colossus算力中心，合同至2029年5月。这意味着Anthropic每年在SpaceX算力上的支出高达150亿美元。
@@ -27,7 +26,6 @@ Anthropic本季度营收接近110亿美元，预计单季净利润5.6亿美元�
 
 📖 来源：[今日头条](http://m.toutiao.com/group/7642476782428209683/) | [今日头条](http://m.toutiao.com/group/7642447282289328674/)
 
-
 **2026年Q1全球风投总额2970亿美元：AI公司吸走81%资金**
 
 2026年第一季度全球风投总额飙升至2970亿美元，同比增长150%，刷新历史纪录。AI公司吸走81%的资金，四笔超级融资占去63%。史上最大的五轮风投融资中，有四轮是在短短90天内完成。
@@ -36,10 +34,8 @@ Anthropic本季度营收接近110亿美元，预计单季净利润5.6亿美元�
 
 📖 来源：[36氪](https://36kr.com/p/3780546615680005) | [新浪财经](https://finance.sina.com.cn/money/smjj/2026-05-21/doc-inhysain5821742.shtml)
 
----
 
-## 🚀 云原生动态
-
+## 🤖 AI前沿
 
 **GitHub Copilot被微软内部示警"生存级风险"**
 
@@ -49,17 +45,11 @@ Anthropic本季度营收接近110亿美元，预计单季净利润5.6亿美元�
 
 📖 来源：[Coze](https://www.coze.cn/share-article/201779258069132864)
 
----
-
-## 🤖 AI前沿
-
-
 **Cohere发布Command A+开源大模型：2180亿参数，首创W4A4无损量化**
 
 Cohere发布Command A+开源大模型：2180亿参数稀疏MoE架构，首创W4A4无损量化技术，支持Apache 2.0开源许可，成为首个完整Apache 2.0开源的企业级大模型。
 
 📖 来源：[今日头条](http://m.toutiao.com/group/7642476782428209683/)
-
 
 **NanoClaw获1200万美元种子轮：打造企业级AI"第二大脑"**
 
@@ -67,8 +57,6 @@ Cohere发布Command A+开源大模型：2180亿参数稀疏MoE架构，首创W4A
 
 📖 来源：[今日头条](http://m.toutiao.com/group/7642476782428209683/)
 
-
----
 
 ## 🔓 开源社区
 
@@ -85,15 +73,12 @@ Skills生态持续火爆，mattpocock/skills、anthropics/financial-services、a
 
 📖 来源：[GitHub Trending](https://github-trending.today/) | [CSDN博客](https://blog.csdn.net/zhoujianwen2008/article/details/161261843)
 
-
 **OpenHarmony 7.0 Beta1现身GitCode：为鸿蒙7.0铺路**
 
 2026年5月21日，OpenHarmony 7.0 Beta1版本现身GitCode，相关页面显示其API版本已迭代至26。同日，以OpenHarmony为基础打造的华为鸿蒙HarmonyOS系统面向开发者开启体验官招募，该招募对应的API版本同样为26。
 
 📖 来源：[Coze](https://www.coze.cn/share-article/201779383797370464)
 
-
----
 
 ## 💡 行业观察
 
@@ -103,7 +88,6 @@ Skills生态持续火爆，mattpocock/skills、anthropics/financial-services、a
 
 📖 来源：[网易新闻](https://3g.163.com/news/article/KTC13CS905118HA4.html)
 
-
 **GoPro启动战略评估：三年亏损40亿，濒临退市**
 
 曾被称为"硬件界乔布斯"的GoPro，已启动战略评估，可能出售公司或合并。昔日市值130亿美元的运动相机霸主，如今市值不足2亿美元，三年累计亏损超5.7亿美元（约40亿人民币），股价从峰值跌去99%，濒临退市。
@@ -111,7 +95,6 @@ Skills生态持续火爆，mattpocock/skills、anthropics/financial-services、a
 GoPro的衰落与影石（Insta360）、大疆的崛起形成鲜明对比。全球运动相机市场份额从2022年的84%骤降至2025年前三季度的18%，全景相机赛道更是被市占率超60%的影石完全主导。
 
 📖 来源：[36氪](https://36kr.com/p/3818628452746117) | [网易新闻](https://3g.163.com/news/article/KTC13CS905118HA4.html)
-
 
 **微软印度最大数据中心2026年中期启用：投资超205亿美元**
 
@@ -121,15 +104,11 @@ GoPro的衰落与影石（Insta360）、大疆的崛起形成鲜明对比。全�
 
 📖 来源：[今日头条](http://m.toutiao.com/group/7642417661145645583/)
 
-
 **三星员工月薪涨25%达5万+：却面临大罢工**
 
 韩国CXO研究所报告显示，2026年Q1三星电子员工人均月薪约1200万韩元（约5.44万元人民币），同比上涨25%，创历史新高。然而薪酬创新高的同时，工会计划罢工，主张将半导体部门营业利润的15%作为绩效奖金。韩国法院已裁定支持三星大部分诉求，要求工会即便罢工也不得耽误生产。
 
 📖 来源：[网易新闻](https://3g.163.com/news/article/KTC13CS905118HA4.html)
-
-
----
 
 ## 📚 数据来源
 

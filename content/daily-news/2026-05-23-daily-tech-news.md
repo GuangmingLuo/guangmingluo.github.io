@@ -28,7 +28,6 @@ description: "2026年5月23日 科技新闻摘要，涵盖人工智能、云计�
 
 📖 来源：[Coze](https://www.coze.cn/share-article/201779490619538144)
 
----
 
 ## 🚀 云原生动态
 
@@ -58,7 +57,6 @@ CNCF发布最新提醒：Kubernetes虽然能够提供容器编排、资源隔离
 
 📖 来源：[博客园](https://www.cnblogs.com/kubesphere/p/20122013)
 
----
 
 ## 🤖 AI前沿
 
@@ -90,7 +88,6 @@ OpenAI于5月22日发布全新版本Codex，从编程助手向全栈工作平台
 
 📖 来源：[OpenAI](https://www.coze.cn/share-article/201779459456755488)
 
----
 
 ## 🔓 开源社区
 
@@ -107,7 +104,6 @@ OpenAI于5月22日发布全新版本Codex，从编程助手向全栈工作平台
 
 📖 来源：[GitHub Trending](https://github-trending.today/) | [CSDN](https://blog.csdn.net/zhoujianwen2008/article/details/161261843)
 
----
 
 ## 💡 行业观察
 
@@ -116,8 +112,6 @@ OpenAI于5月22日发布全新版本Codex，从编程助手向全栈工作平台
 短短34天内，中科创星收获3个硬科技IPO：驭势科技登陆港交所成为全场景L4级自动驾驶第一股；长光辰芯完成赴港上市；曦智科技成为全球AI硅光芯片第一股。这些项目验证了AI算力需求爆发正倒逼全球信息产业从"电"向"光"加速切换，光子技术从数据传输的管道跃升为人工智能时代的底层核心基建。
 
 📖 来源：[21世纪经济报道](http://m.toutiao.com/group/7642755098904363563/)
-
----
 
 ## 📚 数据来源
 

@@ -14,17 +14,14 @@ description: "2026年5月20日 科技新闻摘要，涵盖人工智能、云计�
 
 📖 来源：[钛媒体](http://m.toutiao.com/group/7641696069151146530/) | [IT之家](http://m.toutiao.com/group/7641655708471968290/) | [凤凰网](https://tech.ifeng.com/c/8tGgVvQWI4L)
 
-
 **Meta今日正式裁员10%：约7800人，7000人转岗AI团队**
 
 Meta于5月20日正式实施全球裁员10%计划，约7800名员工受影响，另有6000个在招岗位被关闭。公司同步将7000名员工转移至AI相关新组织，包括应用AI工程（AAI）和智能体转型加速器（ATA）团队。内部备忘录显示：裁员通知分三批在全球凌晨4点发出，北美员工被要求居家办公。此轮调整是Meta"AI原生设计"扁平化架构转型的一部分，公司正加大力度将AI智能体融入产品矩阵和内部工作方式。
 
 📖 来源：[IT之家](https://www.ithome.com/0/952/056.htm) | [环球网](http://m.toutiao.com/group/7641499834372997632/)
 
----
 
 ## 🚀 云原生动态
-
 
 **GitHub Copilot SDK与云原生深度融合：Azure Container Apps部署指南发布**
 
@@ -32,7 +29,6 @@ GitHub Copilot SDK与Agent-to-Agent（A2A）Protocol、云原生部署的深度�
 
 📖 来源：[51CTO](https://blog.51cto.com/u_16213585/14613664)
 
----
 
 ## 🤖 AI前沿
 
@@ -54,7 +50,6 @@ GitHub宣布Copilot将于6月1日起从"高级请求计费"切换至"AI Credits"
 
 📖 来源：[Hindustan Times](https://www.hindustantimes.com/technology/github-copilot-ai-credits-billing-june-2026-best-coding-models-india-101779176274373.html)
 
----
 
 ## 🔓 开源社区
 
@@ -64,7 +59,6 @@ GitHub宣布Copilot将于6月1日起从"高级请求计费"切换至"AI Credits"
 
 📖 来源：[今日头条](http://m.toutiao.com/group/7641650239094538806/) | [GitHub Trending](https://github-trending.today/)
 
----
 
 ## 💡 行业观察
 
@@ -79,8 +73,6 @@ GitHub宣布Copilot将于6月1日起从"高级请求计费"切换至"AI Credits"
 Alphabet与黑石集团宣布组建合资公司，专注基于谷歌自研TPU的云计算服务。黑石投入50亿美元股权资本，通过杠杆将总投资规模放大至250亿美元，目标2027年上线500兆瓦数据中心容量。谷歌提供TPU硬件及服务，黑石负责基础设施建设和资本支持。消息公布后，算力服务概念股应声下跌：CoreWeave跌5.3%、Nebius跌4.4%、IREN跌5.6%。分析师指出此举可能持续压制新兴算力服务商的定价能力和利润率。
 
 📖 来源：[今日头条](http://m.toutiao.com/group/7641611881970549311/) | [36氪](https://36kr.com/)
-
----
 
 ## 📚 数据来源
 
