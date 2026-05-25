@@ -492,3 +492,53 @@ html {
 .archive-list li a:hover {
     color: #0ea5e9;
 }
+
+/* ========================================
+   About Page Styles
+   ======================================== */
+
+/* About page section headings */
+.post-container h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1e293b;
+    margin-top: 32px;
+    margin-bottom: 14px;
+    padding-left: 14px;
+    border-left: 3px solid #0ea5e9;
+    line-height: 1.6;
+}
+
+/* About page tech tags */
+.post-container code {
+    background: #f1f5f9;
+    color: #475569;
+    padding: 4px 10px;
+    border-radius: 16px;
+    font-size: 0.85em;
+    font-weight: 500;
+    border: 1px solid #e2e8f0;
+    white-space: nowrap;
+    display: inline-block;
+    margin: 3px 2px;
+}
+
+/* About page paragraph spacing */
+.post-container p {
+    margin-bottom: 14px;
+    line-height: 1.9;
+}
+
+/* About page list items */
+.post-container ul li {
+    margin-bottom: 6px;
+    line-height: 1.8;
+}
+
+/* About page horizontal rule */
+.post-container hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #e2e8f0, transparent);
+    margin: 36px 0;
+}
