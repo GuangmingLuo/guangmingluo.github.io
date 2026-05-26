@@ -60,25 +60,25 @@ description: "2026年5月27日 科技新闻摘要，涵盖人工智能、云计�
 
 ## 💡 行业观察
 
-**Anthropic 5月营收109亿美元，首次实现运营利润5.59亿**
+**更新｜Anthropic预计Q2营收109亿美元，首次实现运营利润5.59亿**
 
-据Google I/O 2026期间披露，Anthropic 5月营收达109亿美元，首次实现运营利润5.59亿美元，比预期提前两年达成盈利里程碑。Anthropic正与梵蒂冈合作参与AI伦理相关项目。
+据《华尔街日报》报道，Anthropic向投资者披露预计2026年Q2营收达109亿美元（较Q1的48亿美元增长约127%），首次实现运营利润5.59亿美元。这是大型AI公司中首次实现季度盈利的里程碑。Anthropic同时接近完成300亿美元新一轮融资，估值超9000亿美元。
 
-📖 来源：[今日头条](http://m.toutiao.com/group/7644347489034584576/)
+📖 来源：[华尔街日报](https://www.goyou.it/en/tecnologia/2026/05/25/anthropic-forecasts-first-profitable-quarter-109-billion-revenue-in-q2-2026.html)
 
 **Quantinuum公布IPO细节：拟募10.5亿美元，估值127亿美元**
 
 霍尼韦尔旗下量子计算公司Quantinuum公布IPO发行细节：计划发行2105万股，发行价区间45-50美元/股，募资至多10.5亿美元。将在纳斯达克上市，股票代码"QNT"，市值预计达127亿美元。
 
-📖 来源：[Coze](https://www.coze.cn/share-article/201779792345604928)
+📖 来源：[Dow Jones/Morningstar](https://kessler-prod.reta52d8.eas.morningstar.com/news/dow-jones/202605263749/quantinuum-sets-ipo-terms-that-could-push-market-cap-toward-13-billion)
 
-**AMD与OneQode达成全球AI基础设施合作**
+**AMD与OneQode达成全球AI基础设施合作**（合作公告）
 
 5月27日，OneQode宣布与AMD合作部署AMD Instinct GPU，并计划采用AMD Helios rack-scale解决方案作为全球AI基础设施平台基础。部署将运行开源AMD ROCm软件栈，为前沿模型训练、企业AI和主权AI客户提供标准化、厂商中立的基础设施。
 
 📖 来源：[PR Newswire](https://scitechanddigital.news/2026/05/27/oneqode-to-deploy-amd-instinct-gpus-and-plans-for-amd-helios-rack-scale-solution-for-global-ai-infrastructure/)
 
-**长鑫科技今日科创板IPO上会，国产存储迎里程碑**
+**更新｜长鑫科技今日科创板IPO上会**
 
 5月27日，长鑫科技正式上会冲刺科创板IPO，这是国产存储芯片自主可控的标志性事件。据招股书披露，2026年Q1营收508亿元（同比+719%），净利润330亿元（同比+1268%）。市场分析指出，长鑫科技上市将带动上游半导体设备需求，存储扩产浪潮下设备企业将直接受益。
 
