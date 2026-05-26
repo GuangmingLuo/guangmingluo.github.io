@@ -21,13 +21,6 @@ description: "2026年5月21日 科技新闻摘要，涵盖人工智能、云计�
 📖 来源：[英伟达官方](https://www.globenewswire.com/news-release/2026/05/20/3298888/0/en/nvidia-announces-financial-results-for-first-quarter-fiscal-2027.html) | [搜狐](https://m.sohu.com/a/1025384760_115060/) | [AP News](https://apnews.com/article/nvidia-ai-earnings-revenue-955c699a0c91c423edc81b7903b80f85)
 
 
----
-
-## 🚀 云原生动态
-
-
----
-
 ## 🤖 AI前沿
 
 **阿里云全栈Agent化升级：Qwen3.7-Max发布、真武M890芯片亮相**
@@ -72,7 +65,6 @@ Zyphra成立于2020年，主打先进开源AI模型开发与云基础设施服�
 
 📖 来源：[Coze](https://www.coze.cn/share-article/201779302024158368)
 
----
 
 ## 🔓 开源社区
 
@@ -89,7 +81,6 @@ Skills生态持续火爆：mattpocock/skills、anthropics/financial-services、a
 
 📖 来源：[GitHub Trending](https://github-trending.today/) | [Chaindesk](https://www.chaindesk.ai/it/tools/youtube-summarizer/top-10-trending-git-hub-projects-this-week-real-time-face-swapping-ai-agents-and-more-JTZcSPi51_4)
 
----
 
 ## 💡 行业观察
 
@@ -108,8 +99,6 @@ IBM宣布在IBM Cloud上推出Red Hat AI Inference和Red Hat OpenShift Virtualiz
 Red Hat AI Inference将于2026年5月22日正式可用，OpenShift Virtualization Service预计6月推出。
 
 📖 来源：[搜狐](https://m.sohu.com/a/1024961686_121123888/)
-
----
 
 ## 📚 数据来源
 
