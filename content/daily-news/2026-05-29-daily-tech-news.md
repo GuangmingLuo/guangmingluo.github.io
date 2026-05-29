@@ -3,70 +3,34 @@ title: "2026年5月29日 每日科技早报"
 date: 2026-05-29T08:00:00+08:00
 categories: ["每日早报"]
 tags: ["科技新闻", "人工智能", "云计算", "开源"]
-description: "2026年5月29日 科技新闻摘要：Anthropic完成650亿美元H轮融资估值首超OpenAI、Claude Code史上最大升级、AWS获Snowflake 60亿美元大单。"
+description: "2026年5月29日 科技新闻摘要：Claude Opus 4.8发布+Dynamic Workflows、NVIDIA Polar开源框架、Snowflake与AWS签60亿美元协议。"
 ---
 
 ## 📰 头条新闻
 
-**Anthropic完成650亿美元H轮融资，估值9650亿美元首次超越OpenAI**
+**Anthropic发布Claude Opus 4.8+Dynamic Workflows，同日完成650亿美元H轮融资估值首超OpenAI**
 
-5月29日，AI独角兽Anthropic正式完成650亿美元H轮融资，投后估值达9650亿美元，首次超越竞争对手OpenAI，成为全球估值最高的人工智能初创企业。本轮融资由Altimeter Capital、Dragoner、Greenoaks和红杉资本领投，云厂商承诺投资150亿美元中亚马逊贡献50亿美元。本轮融资主要用于大规模扩展AI基础设施，以支持AI模型持续激增的使用需求。
+5月28日，Anthropic发布新一代旗舰模型Claude Opus 4.8，在编码、智能体任务、推理和知识工作方面均有提升。SWE-Bench Pro得分从64.3%提升至69.2%，超越GPT-5.5和Gemini 3.1 Pro。最大亮点是"诚实度"提升——模型更倾向标注不确定性，代码缺陷未说明通过率降低约4倍。定价不变（输入$5/百万token，输出$25/百万token），Fast Mode速度提升2.5倍且成本降至原来1/3。
 
-另据央视财经，预计Anthropic第二季度营收将达到109亿美元，较前一季度增长一倍以上，有望实现首个盈利季度。此前有消息称Anthropic正积极筹备IPO，预计最快于10月正式上市。
+同日发布Claude Code重大更新（v2.1.154，44项变更）：Dynamic Workflows支持数十至数百个Agent后台协调执行；安全修复包括危险路径拦截和数据泄露检测；桌面版支持多会话并行、内置终端和SSH远程连接。
 
-📖 来源：[大河财立方](http://m.toutiao.com/group/7645089288396210734/) | [央视财经](https://www.cctvcj.com)
+同日，Anthropic宣布完成650亿美元H轮融资，投后估值达9650亿美元，首次超越OpenAI（8520亿美元）成为全球估值最高的AI初创企业。本轮由Altimeter Capital、Dragoneer、Greenoaks和红杉资本领投，亚马逊贡献50亿美元，美光、三星、SK海力士以战略伙伴身份参与。Anthropic年化营收已突破470亿美元，预计Q2首次盈利。
 
----
-
-**Claude Code迎来史上最大规模升级：自愈功能砸碎开发者六大噩梦**
-
-Claude Code迎来自诞生以来最大规模的底层逻辑升级，Anthropic一口气修复了六大开发者痛点：终端闪烁、思考假死、玄学报错、上下文死锁、连接不稳及会话崩溃。最亮眼的升级是"自愈"功能，遇到损坏文件或异常时可自动检测绕过维持存续，让AI编程工具从"聪明外挂"进化为"可靠伙伴"。
-
-同时，Claude Code v2.1.154正式发布（5月28日），包含44项变更，核心更新包括新顶级模型Claude Opus 4.8上线（默认高强度模式）、动态工作流支持多Agent并行协调、安全修复（危险路径拦截与数据泄露检测）。桌面版也已全面登场，支持多会话并行、内置终端、SSH远程连接等。
-
-📖 来源：[36氪](https://36kr.com/p/3828807269274503) | [Classmethod](https://dev.classmethod.jp/en/articles/20260529-claude-code-updates-v2-1-154/)
-
----
-
-**市场监管总局、发改委联合印发AI计量体系指引(2026版)**
-
-近日，市场监管总局、国家发展改革委联合印发《人工智能计量体系和能力建设指引（2026版）》，系统布局人工智能计量能力建设。指引出台标志我国人工智能领域从"建算力、扩规模"向"提质量、强根基"迈出关键一步。
-
-指引围绕基础支撑、通用技术、核心技术、计量技术规范、计量服务产业、智能赋能计量六大部分系统布局。针对算法"黑箱"、决策可解释性差等痛点，推动建立AI可靠、安全、可信的计量标准；明确支持构建国家级计量技术研发应用中心，为AI产品提供统一"度量衡"；推动计量技术深度融入智能制造、智慧医疗、智慧交通等14个重点领域。
-
-📖 来源：[市场监管总局](https://www.samr.gov.cn/xw/zj/art/2026/art_f43aa2c974654d66b91bbad8410d0d71.html) | [新华网](http://www.xinhuanet.com/tech/20260528/60a3478007284ff2892dc98ff74b30d3/c.html)
+📖 来源：[Anthropic](https://www.anthropic.com) | [财联社](http://m.toutiao.com/group/7645049146293977640/) | [9to5Mac](https://9to5mac.com/2026/05/28/anthropic-upgrades-claude-with-new-opus-4-8-model-heres-whats-new/) | [36氪](https://36kr.com/p/3829512317379713)
 
 ---
 
 ## 🤖 AI前沿
 
-**Claude Opus 4.8正式发布：成v2.1.154主力模型**
+**面壁智能PilotDeck开源：项目级Agent操作系统，白盒记忆+智能路由**
 
-Claude Code v2.1.154正式支持Claude Opus 4.8作为新的顶级模型，默认启用高强度（high effort）模式，特别困难的任务可使用 `/effort xhigh`。该版本还引入了动态工作流（Dynamic Workflows），允许数十至数百个Agent在后台协调执行，开发者可通过 `/workflows` 命令查看执行状态。
+清华THUNLP、面壁智能与OpenBMB联合开源智能体操作系统PilotDeck，核心设计以"工作舱WorkSpace"取代对话框，为每个项目建立独立环境：记忆白盒化让AI记忆全链路可见可改可追溯；"Dream"机制支持空闲整理与一键回滚；智能路由根据任务难度动态分配模型，社交媒体场景成本节省近70%，复杂任务1/6成本效果反超Sonnet 4.6单Agent。支持Always-on常驻任务24小时自主推进。GitHub：https://github.com/OpenBMB/PilotDeck
 
-📖 来源：[Classmethod](https://dev.classmethod.jp/en/articles/20260529-claude-code-updates-v2-1-154/)
+📖 来源：[36氪](https://36kr.com/p/3828807269274503) | [腾讯新闻](http://news.qq.com/rain/a/20260528A077Z600)
 
----
+**快手可灵AI Q1收入同比增长超300%，年化收入近5亿美元**
 
-**面壁智能PilotDeck开源：打造智能体操作系统**
-
-清华THUNLP、面壁智能与OpenBMB联合开源智能体操作系统PilotDeck，以"工作舱WorkSpace"取代对话框，为每个项目建立独立的智能体生存环境。核心特性包括：记忆白盒化让AI记忆全链路可见可控可追溯；独有"任务制Dream"机制支持空闲整理与一键回滚；智能路由动态分配模型，社交媒体内容场景成本节省近70%，复杂任务仅花1/6成本效果反超顶级模型，并支持Always-on常驻任务24小时在线。
-
-📖 来源：[腾讯研究院AI速递](https://m.sohu.com/a/1029063400_455313/)
-
----
-
-**腾讯混元Hy-Memory发布：打造Agent第二大脑**
-
-腾讯混元发布针对长期协作Agent的六层记忆框架Hy-Memory，宣称在LONGMEMEVAL评测中总分达85.20。该框架旨在解决Agent长期记忆问题，为AI助手提供更强的上下文连续性和个性化能力。
-
-📖 来源：[人工智能技术日报](http://m.toutiao.com/group/7645099083559879208/)
-
----
-
-**快手可灵AI Q1收入同比增长超300%**
-
-快手2026年第一季度财报显示，可灵AI收入同比增长超300%，商业化进程进一步提速。2026年3月可灵AI年化收入（ARR）近5亿美元，而去年3月仅1亿美元，一年内增长4倍。CEO程一笑表示，一季度收入高速增长主要来自B端企业客户API调用收入和P端付费会员订阅收入双轮驱动。
+快手2026年Q1财报显示，可灵AI收入同比增长超300%，商业化进程提速。2026年3月可灵AI年化收入（ARR）近5亿美元，而去年3月仅1亿美元，一年内增长4倍。CEO程一笑表示增长主要来自B端API调用和P端付费会员双轮驱动。
 
 📖 来源：[21世纪经济报道](http://m.toutiao.com/group/7644976584062943790/)
 
@@ -74,35 +38,17 @@ Claude Code v2.1.154正式支持Claude Opus 4.8作为新的顶级模型，默认
 
 ## 🔓 开源社区
 
-**NVIDIA Polar开源：智能体强化学习框架让Codex SWE-Bench分数暴涨**
+**NVIDIA开源Polar框架：不改代码让Codex SWE-Bench分数从3.8%飙至26.4%**
 
-英伟达开源智能体强化学习框架Polar不改代码即让Codex SWE-Bench分数从3.8%暴涨到26.4%。该框架为开发者提供训练更强化编程Agent的核武器。
+英伟达研究团队开源智能体强化学习框架Polar，核心创新是在模型API边界放置代理，无需修改现有智能体框架（Codex/Claude Code/Qwen Code）即可接入GRPO强化学习训练。基于同一Qwen3.5-4B底座模型，Codex框架下SWE-Bench Verified pass@1从3.8%提升至26.4%，Claude Code从29.8%提升至34.6%。引入prefix_merging策略后训练墙钟时间缩短5.39倍，GPU利用率从20.4%升至87.7%。论文：https://arxiv.org/pdf/2605.24220
 
-📖 来源：[码农的异想world](http://m.toutiao.com/group/7644857287256867378/)
+📖 来源：[IT之家](https://www.ithome.com/0/956/293.htm) | [NVIDIA/MarkTechPost](https://news.aibase.com/news/28430)
 
----
-
-**FastVideo Dreamverse开源：7秒生成30秒1080p视频**
-
-FastVideo今天开源Dreamverse，单张B200 GPU可实现实时生成30秒1080p视频。这为视频创作者提供了全新的AI视频生成工具。
-
-📖 来源：[码农的异想world](http://m.toutiao.com/group/7644857287256867378/)
-
----
-
-**Perplexity Unigram Tokenizer开源：CPU分词延迟降5-6倍**
-
-Perplexity开源Unigram Tokenizer，可将CPU分词延迟降低5-6倍。如果AI推理服务延迟卡在分词环节，换个tokenizer就能显著提升性能。
-
-📖 来源：[码农的异想world](http://m.toutiao.com/group/7644857287256867378/)
-
----
-
-**自变量Wall-OSS-0.5开源：预训练具身模型直接上机跑17个任务**
+**自变量Wall-OSS-0.5开源：预训练具身模型无微调直接上机跑17个任务**
 
 自变量机器人开源Wall-OSS-0.5预训练具身大模型，在20多种机器人形态、100万条轨迹及9000万多模态语料上完成预训练。无微调直接上真机跑17个任务，未见过的"绳子收紧"柔性双臂操作零样本拿到82分，微调后平均任务进度比π0.5领先17.5分。
 
-📖 来源：[腾讯研究院AI速递](https://m.sohu.com/a/1029063400_455313/)
+📖 来源：[新智元/36氪](https://36kr.com/p/3828807269274503)
 
 ---
 
@@ -110,52 +56,46 @@ Perplexity开源Unigram Tokenizer，可将CPU分词延迟降低5-6倍。如果AI
 
 **Snowflake Q1营收增33%与AWS签60亿美元五年协议，盘后暴涨36%**
 
-Snowflake第一财季营收达13.9亿美元，同比增长33%，远超分析师预期的13.2亿美元。公司宣布未来五年将向AWS投入60亿美元，涵盖Graviton芯片及AI GPU资源，这是Snowflake成立以来最大的一笔基础设施投资承诺，也是继Anthropic之后AWS在AI领域赢得的又一重大客户合作。
-
-同时Snowflake宣布收购AI智能体平台Natoma，进一步强化AI布局。公司全年产品营收指引从56.6亿美元上调至58.4亿美元。
+Snowflake第一财季营收13.9亿美元，同比增长33%，远超预期。公司宣布未来五年向AWS投入60亿美元，涵盖Graviton芯片及AI GPU资源，这是继Anthropic之后AWS在AI领域又一重大客户承诺。值得关注的是，随着AI从聊天机器人向智能体转型，具备通用计算能力的CPU（如Graviton）正迎来需求复苏。公司还宣布收购AI智能体平台Natoma，全年产品营收指引上调至58.4亿美元。
 
 📖 来源：[华尔街见闻](http://m.163.com/dy/article/KU0P9BH105198NMR.html) | [金融界](http://m.toutiao.com/group/7644841046631662130/)
 
----
+**更新｜Anthropic完成650亿美元H轮融资，估值9650亿美元首超OpenAI**
+
+Anthropic正式完成H轮融资，投后估值9650亿美元，超越OpenAI的8520亿美元。本轮由Altimeter Capital、Dragoneer、Greenoaks和红杉资本领投，云厂商承诺投资150亿美元（亚马逊50亿）。美光、三星、SK海力士以战略基础设施伙伴身份参与。年化营收突破470亿美元，预计Q2首次盈利。正在积极筹备IPO，预计最快10月上市。
+
+📖 来源：[财联社](http://m.toutiao.com/group/7645049146293977640/) | [IT之家/TechCrunch](https://finance.jrj.com.cn/2026/05/29074757245301.shtml)
 
 **墨芯完成近10亿元C轮融资，稀疏计算加速商业化闭环**
 
-国产AI芯片创企墨芯人工智能宣布完成近10亿元C轮融资，由深创投、岩山科技、大湾区共同家园等联合投资。墨芯是国内少数走差异化稀疏计算路线的创企，其AI加速卡在MLPerf评测中三度夺冠，性能超过英伟达A100、H100。
-
-墨芯同时宣布将于年底发布全新一代高性能AI通用推理卡SparsePrime，基于自研Antoum2.0芯片架构打造，深度适配大模型推理任务。目前已在云端、边缘端、算力网络侧拿下商业化订单，并在全国多区域千卡集群完成部署。
+国产AI芯片创企墨芯人工智能完成近10亿元C轮融资，由深创投、岩山科技、大湾区共同家园等联合投资。墨芯是国内少数走差异化稀疏计算路线的创企，AI加速卡在MLPerf评测中三度夺冠，性能超过英伟达A100、H100。预计年底发布新一代推理卡SparsePrime，基于自研Antoum2.0芯片架构。
 
 📖 来源：[36氪](https://36kr.com/p/3828243885707913)
 
----
+**市场监管总局、发改委联合印发AI计量体系指引(2026版)**
+
+市场监管总局、国家发展改革委联合印发《人工智能计量体系和能力建设指引（2026版）》，围绕基础支撑、通用技术、核心技术、计量技术规范、计量服务产业、智能赋能计量六大部分系统布局。针对算法"黑箱"、决策可解释性差等痛点，推动建立AI可靠、安全、可信的计量标准。
+
+📖 来源：[市场监管总局](https://www.samr.gov.cn/xw/zj/art/2026/art_f43aa2c974654d66b91bbad8410d0d71.html) | [新华网](http://www.xinhuanet.com/tech/20260528/60a3478007284ff2892dc98ff74b30d3/c.html)
 
 **戴尔Q1业绩超预期，AI服务器展望上调盘后涨38%**
 
 戴尔科技第一财季业绩远超预期，受益于AI服务器需求强劲，公司上调全年AI服务器销售额展望。财报公布后戴尔盘后涨幅扩大至38%。
 
-📖 来源：[财哥看市](http://m.toutiao.com/group/7645090497173717523/)
-
----
-
-**小鹏Q1营收130亿元净亏损扩大至17.8亿元，二季度指引超预期**
-
-小鹏汽车发布2026年第一季度财报，当期总交付量为62682辆，同比减少33.3%；总收入为130.3亿元，同比下降17.6%。经营亏损18.7亿元，净亏损扩大至17.8亿元。但毛利率提升至20.6%，高于市场预期。
-
-公司预计第二季度交付量10万至10.6万辆，环比增长约60%至69%，显著高于市场预期。CEO何小鹏表示，"我们即将迎来强劲的销量增长曲线"。
-
-📖 来源：[华尔街见闻](http://m.toutiao.com/group/7644878779831075362/)
+📖 来源：[华尔街见闻](https://wallstreetcn.com)
 
 ---
 
 ## 📚 数据来源
 
+- [Anthropic](https://www.anthropic.com)
 - [36氪](https://36kr.com)
-- [大河财立方](http://m.toutiao.com/group/7645089288396210734/)
-- [市场监管总局](https://www.samr.gov.cn)
+- [财联社](https://www.cls.cn)
+- [IT之家](https://www.ithome.com)
 - [华尔街见闻](https://wallstreetcn.com)
 - [21世纪经济报道](https://21jingji.com)
-- [金融界](https://www.jrj.com.cn)
-- [腾讯研究院](https:// Tencent Research Institute)
-- [Classmethod](https://dev.classmethod.jp)
+- [市场监管总局](https://www.samr.gov.cn)
+- [9to5Mac](https://9to5mac.com)
 
 ---
 
